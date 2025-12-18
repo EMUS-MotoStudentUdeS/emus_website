@@ -25,5 +25,5 @@ Timeline highlights: design validation now; build and testing through 2025; fina
 Placeholder images only for now. TODO replace with optimized team, bike, and track photos (compressed and responsive).
 
 # Contact
-Email: TODO add official EMUS contact
-Social: Facebook / Instagram TODO add links
+Email: EMUS@usherbrooke.ca
+Social: Facebook https://www.facebook.com/Projetemus / Instagram https://www.instagram.com/emus_udes/
