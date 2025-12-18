@@ -1,46 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EMUS | Electric Motorcycle of Université de Sherbrooke</title>
-  <link rel="stylesheet" href="theme.css">
-  <link rel="stylesheet" href="styles/global.css">
-  <link rel="stylesheet" href="styles/pages.css">
-  <link rel="stylesheet" href="styles/home.css">
-</head>
-<body>
-  <header class="site-header">
-    <div class="brand">
-      <a class="brand-link" href="/">
-        <img src="assets/logo/Logo_EMUS_V-BL_titre.png" alt="EMUS logo" class="logo logo-light">
-        <img src="assets/logo/Logo_EMUS_V-NR_titre.png" alt="EMUS logo" class="logo logo-dark">
-      </a>
-    </div>
-    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="nav-toggle-bar"></span>
-      <span class="nav-toggle-bar"></span>
-      <span class="nav-toggle-bar"></span>
-    </button>
-    <nav id="site-nav" class="site-nav" aria-label="Primary">
-      <ul>
-        <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="team.html">Team</a></li>
-        <li><a href="project.html">Project</a></li>
-        <li><a href="sponsors.html">Sponsors</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+---
+layout: default
+title: EMUS
+styles:
+  - /styles/home.css
+---
 
-  <main>
-    <section class="hero" id="top">
-      <div class="hero__content">
-        <p class="eyebrow">MotoStudent Electric</p>
-        <h1>From Sherbrooke to MotorLand Aragón</h1>
-        <p class="lead">
+  <section class="hero" id="top">
+    <div class="hero__content">
+      <p class="eyebrow">MotoStudent Electric</p>
+      <h1>From Sherbrooke to MotorLand Aragón</h1>
+      <p class="lead">
           EMUS (Electric Motorcycle of Université de Sherbrooke) is a student engineering team developing a 100% electric race motorcycle for the MotoStudent competition in Spain.
         </p>
         <div class="hero__actions">
@@ -140,10 +109,10 @@
             Support EMUS: funding, manufacturing, materials, and technical mentorship. Strategic partners help accelerate testing, manufacturing, and race readiness.
           </p>
           <div class="highlight-actions">
-          <a class="button button-primary" href="sponsors.html">Sponsor the team</a>
+          <a class="button button-primary" href="{{ '/sponsors' | relative_url }}">Sponsor the team</a>
           <a class="button button-ghost" href="#contact">Email us</a>
         </div>
-      </div>
+        </div>
         <div class="highlight-card" aria-hidden="true">
           <p class="card-label">What we can showcase</p>
           <ul class="list-simple">
@@ -176,25 +145,3 @@
         </div>
       </div>
     </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="footer-brand">
-      <img src="assets/logo/Logo_EMUS_V-BL_titre.png" alt="EMUS logo" class="logo logo-light">
-    </div>
-    <div class="footer-links">
-      <a href="team.html">Team</a>
-      <a href="project.html">Project</a>
-      <a href="sponsors.html">Sponsors</a>
-      <a href="gallery.html">Gallery</a>
-      <a href="contact.html">Contact</a>
-    </div>
-    <div class="footer-meta">
-      <p>EMUS · Electric Motorcycle of Université de Sherbrooke</p>
-      <p class="footer-note">Building for MotoStudent 2025 · MotorLand Aragón, Spain</p>
-    </div>
-  </footer>
-
-  <script src="scripts/site.js"></script>
-</body>
-</html>
