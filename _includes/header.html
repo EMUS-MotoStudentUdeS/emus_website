@@ -14,11 +14,11 @@
   <nav id="site-nav" class="site-nav" aria-label="Primary">
     <ul>
       <li><a href="{{ '/' | relative_url }}" class="{% if page.url == '/' %}active{% endif %}">Home</a></li>
-      <li><a href="{{ '/team' | relative_url }}" class="{% if page.url contains '/team' %}active{% endif %}">Team</a></li>
-      <li><a href="{{ '/project' | relative_url }}" class="{% if page.url contains '/project' %}active{% endif %}">Project</a></li>
-      <li><a href="{{ '/sponsors' | relative_url }}" class="{% if page.url contains '/sponsors' %}active{% endif %}">Sponsors</a></li>
-      <li><a href="{{ '/gallery' | relative_url }}" class="{% if page.url contains '/gallery' %}active{% endif %}">Gallery</a></li>
-      <li><a href="{{ '/contact' | relative_url }}" class="{% if page.url contains '/contact' %}active{% endif %}">Contact</a></li>
+      <li><a href="{{ '/team/' | relative_url }}" class="{% if page.url contains '/team' %}active{% endif %}">Team</a></li>
+      <li><a href="{{ '/project/' | relative_url }}" class="{% if page.url contains '/project' %}active{% endif %}">Project</a></li>
+      <li><a href="{{ '/sponsors/' | relative_url }}" class="{% if page.url contains '/sponsors' %}active{% endif %}">Sponsors</a></li>
+      <li><a href="{{ '/gallery/' | relative_url }}" class="{% if page.url contains '/gallery' %}active{% endif %}">Gallery</a></li>
+      <li><a href="{{ '/contact/' | relative_url }}" class="{% if page.url contains '/contact' %}active{% endif %}">Contact</a></li>
     </ul>
   </nav>
 </header>

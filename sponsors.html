@@ -1,101 +1,111 @@
 ---
 layout: default
 title: Sponsors
+permalink: /sponsors/
 ---
 
-    <section class="page-hero">
-      <div class="tag">Sponsors</div>
-      <h1>Support the EMUS electric build</h1>
-      <p class="lead">Support EMUS: funding, manufacturing, materials, and technical mentorship.</p>
-      <div class="card-grid">
-        <div class="stat-block">
-          <p class="stat-value">Track visibility</p>
-          <p class="stat-label">MotorLand Aragón · Oct 15-19, 2025</p>
-        </div>
-        <div class="stat-block">
-          <p class="stat-value">Engineering impact</p>
-          <p class="stat-label">Electric category · MotoStudent</p>
-        </div>
-      </div>
-    </section>
+{% assign sponsors = site.data.sponsors %}
+<section class="page-hero">
+  <div class="tag">Sponsors</div>
+  <h1>Support the EMUS electric build</h1>
+  <p class="lead">Support EMUS: funding, manufacturing, materials, and technical mentorship.</p>
+  <div class="card-grid">
+    <div class="stat-block">
+      <p class="stat-value">Track visibility</p>
+      <p class="stat-label">MotorLand Aragón · Oct 2027</p>
+    </div>
+    <div class="stat-block">
+      <p class="stat-value">Engineering impact</p>
+      <p class="stat-label">Electric category · MotoStudent</p>
+    </div>
+  </div>
+</section>
 
-    <section class="section section-tight" id="ways-to-help" aria-labelledby="ways-title">
-      <div class="section-heading">
-        <p class="section-kicker">Partnerships</p>
-        <h2 id="ways-title">Ways to support</h2>
-      </div>
-      <div class="card-grid wide">
-        <article class="info-card">
-          <div class="badge-label">Funding</div>
-          <h3>Project budget</h3>
-          <p>Accelerate manufacturing, testing, and race logistics.</p>
-        </article>
-        <article class="info-card">
-          <div class="badge-label">Manufacturing</div>
-          <h3>Fabrication support</h3>
-          <p>Machine time, composites, welding, and specialized processes.</p>
-        </article>
-        <article class="info-card">
-          <div class="badge-label">Materials</div>
-          <h3>Components & supplies</h3>
-          <p>Metals, composites, fasteners, wiring, and testing equipment.</p>
-        </article>
-        <article class="info-card">
-          <div class="badge-label">Technical</div>
-          <h3>Mentorship</h3>
-          <p>Guidance on design, validation, reliability, and race prep.</p>
-        </article>
-        <article class="info-card">
-          <div class="badge-label">Services</div>
-          <h3>Analysis & tools</h3>
-          <p>Simulation licenses, track access, and test instrumentation.</p>
-        </article>
-        <article class="info-card">
-          <div class="badge-label">In-kind</div>
-          <h3>Equipment & space</h3>
-          <p>Lab access, benches, or storage to keep the build moving.</p>
-        </article>
-      </div>
-    </section>
+<section class="section section-tight" id="ways-to-help" aria-labelledby="ways-title">
+  <div class="section-heading">
+    <p class="section-kicker">Partnerships</p>
+    <h2 id="ways-title">Ways to support</h2>
+  </div>
+  <div class="card-grid wide">
+    <article class="info-card">
+      <div class="badge-label">Funding</div>
+      <h3>Project budget</h3>
+      <p>Accelerate manufacturing, testing, and race logistics.</p>
+    </article>
+    <article class="info-card">
+      <div class="badge-label">Manufacturing</div>
+      <h3>Fabrication support</h3>
+      <p>Machine time, composites, welding, and specialized processes.</p>
+    </article>
+    <article class="info-card">
+      <div class="badge-label">Materials</div>
+      <h3>Components & supplies</h3>
+      <p>Metals, composites, fasteners, wiring, and testing equipment.</p>
+    </article>
+    <article class="info-card">
+      <div class="badge-label">Technical</div>
+      <h3>Mentorship</h3>
+      <p>Guidance on design, validation, reliability, and race prep.</p>
+    </article>
+    <article class="info-card">
+      <div class="badge-label">Services</div>
+      <h3>Analysis & tools</h3>
+      <p>Simulation licenses, track access, and test instrumentation.</p>
+    </article>
+    <article class="info-card">
+      <div class="badge-label">In-kind</div>
+      <h3>Equipment & space</h3>
+      <p>Lab access, benches, or storage to keep the build moving.</p>
+    </article>
+  </div>
+</section>
 
-    <section class="section section-tight" id="visibility" aria-labelledby="visibility-title">
-      <div class="section-heading">
-        <p class="section-kicker">Visibility</p>
-        <h2 id="visibility-title">Showcase opportunities</h2>
-        <p>Logos and activations will be placed on the bike, team apparel, pit setup, and communications. Placeholder assets are shown until sponsor logos are confirmed.</p>
+<section class="section section-tight" id="visibility" aria-labelledby="visibility-title">
+  <div class="section-heading">
+    <p class="section-kicker">Visibility</p>
+    <h2 id="visibility-title">Showcase opportunities</h2>
+    <p>Logos and activations will be placed on the bike, team apparel, pit setup, and communications. Placeholder assets are shown until sponsor logos are confirmed.</p>
+    <p class="helper-note">Add or edit sponsors in <code>_data/sponsors.json</code> and place logos in <code>assets/sponsors/</code>.</p>
+  </div>
+  <div class="logo-grid">
+    {% for sponsor in sponsors %}
+    <article class="logo-card">
+      <div class="logo-card__media">
+        <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }} logo">
       </div>
-      <div class="gallery-grid">
-        <div class="gallery-item"><span>Logo placeholder</span></div>
-        <div class="gallery-item"><span>Logo placeholder</span></div>
-        <div class="gallery-item"><span>Logo placeholder</span></div>
-        <div class="gallery-item"><span>Logo placeholder</span></div>
-        <div class="gallery-item"><span>Logo placeholder</span></div>
-        <div class="gallery-item"><span>Logo placeholder</span></div>
+      <div class="logo-card__body">
+        <p class="badge-label">{{ sponsor.tier }}</p>
+        <h3>{{ sponsor.name }}</h3>
+        <p>{{ sponsor.summary }}</p>
+        <p><a href="{{ sponsor.link }}" target="_blank" rel="noreferrer">Learn more</a></p>
       </div>
-    </section>
+    </article>
+    {% endfor %}
+  </div>
+</section>
 
-    <section class="section section-tight" id="cta" aria-labelledby="cta-title">
-      <div class="section-heading">
-        <p class="section-kicker">Get in touch</p>
-        <h2 id="cta-title">Ready to partner?</h2>
-        <p>We’ll tailor a package around visibility, recruitment, and technical collaboration.</p>
+<section class="section section-tight" id="cta" aria-labelledby="cta-title">
+  <div class="section-heading">
+    <p class="section-kicker">Get in touch</p>
+    <h2 id="cta-title">Ready to partner?</h2>
+    <p>We’ll tailor a package around visibility, recruitment, and technical collaboration.</p>
+  </div>
+  <div class="split-2">
+    <div class="info-card">
+      <h3>Next steps</h3>
+      <ul class="list-simple">
+        <li>Share your focus: funding, materials, or mentorship</li>
+        <li>We respond with needs and timelines</li>
+        <li>Align on visibility and delivery</li>
+      </ul>
+    </div>
+    <div class="info-card">
+      <h3>Contact</h3>
+      <p>Email and socials in Contact page.</p>
+      <div class="highlight-actions">
+        <a class="button button-primary" href="{{ '/contact/' | relative_url }}">Contact EMUS</a>
+        <a class="button button-ghost" href="{{ '/project/' | relative_url }}">See the project</a>
       </div>
-      <div class="split-2">
-        <div class="info-card">
-          <h3>Next steps</h3>
-          <ul class="list-simple">
-            <li>Share your focus: funding, materials, or mentorship</li>
-            <li>We respond with needs and timelines</li>
-            <li>Align on visibility and delivery</li>
-          </ul>
-        </div>
-        <div class="info-card">
-          <h3>Contact</h3>
-          <p>Email and socials in Contact page.</p>
-          <div class="highlight-actions">
-            <a class="button button-primary" href="{{ '/contact' | relative_url }}">Contact EMUS</a>
-            <a class="button button-ghost" href="{{ '/project' | relative_url }}">See the project</a>
-          </div>
-        </div>
-      </div>
-    </section>
+    </div>
+  </div>
+</section>

@@ -40,6 +40,64 @@
   gap: 1rem;
 }
 
+.profile-grid,
+.logo-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.helper-note {
+  color: var(--color-text-subtle);
+  font-size: 0.95rem;
+  margin: 0.25rem 0 0.5rem;
+}
+
+.profile-card,
+.logo-card {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  display: grid;
+  gap: 0.75rem;
+  padding: 1rem;
+}
+
+.profile-media img,
+.logo-card__media img {
+  width: 100%;
+  border-radius: var(--radius);
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-alt);
+  object-fit: cover;
+}
+
+.profile-card h3,
+.logo-card h3 {
+  margin: 0 0 0.25rem;
+}
+
+.subteam-block {
+  margin-bottom: 2rem;
+  padding: 1.1rem 1.25rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: linear-gradient(135deg, rgba(139, 190, 39, 0.06), rgba(0, 0, 0, 0)) ,
+    var(--color-surface);
+}
+
+.subteam-title {
+  margin: 0 0 0.8rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+}
+
+.profile-body p:last-child,
+.logo-card__body p:last-child {
+  margin-bottom: 0;
+}
+
 .info-card {
   border: 1px solid var(--color-border);
   border-radius: var(--radius);
@@ -185,6 +243,11 @@
   .gallery-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .profile-grid,
+  .logo-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (min-width: 1024px) {
@@ -193,6 +256,10 @@
   }
 
   .gallery-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .profile-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }

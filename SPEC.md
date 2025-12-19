@@ -1,4 +1,4 @@
-# EMUS Static Website Spec
+﻿# EMUS Static Website Spec
 
 ## Sitemap
 - / (Home)
@@ -14,8 +14,8 @@
 - Dark/light theme optional (prefer simple)
 
 ## Content sources (must be cited/accurate)
-- EMUS is an engineering student team at Université de Sherbrooke building an electric race motorcycle for MotoStudent 2025.
-- MotoStudent 2025 final event dates: Oct 15–19, 2025.
+- EMUS is an engineering student team at Université de Sherbrooke building an electric race motorcycle for MotoStudent 2027.
+- MotoStudent 2027 final event timing: October 2027 (exact dates TBD).
 - 2023 result: 13th worldwide, 1st among American teams.
 - About MotoStudent: international competition organized by Moto Engineering Foundation with MotorLand Aragón; categories include Petrol and Electric; final at MotorLand Aragón (Alcañiz, Spain).
 

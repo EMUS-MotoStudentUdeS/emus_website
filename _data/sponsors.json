@@ -1,0 +1,23 @@
+[
+  {
+    "name": "EMUS Placeholder",
+    "tier": "Title",
+    "link": "https://www.usherbrooke.ca",
+    "logo": "/assets/logo/Logo_EMUS_V-BL_titre.png",
+    "summary": "Primary supporter placeholder. Add your logo to /assets/sponsors/ and update this entry."
+  },
+  {
+    "name": "EMUS Placeholder 2",
+    "tier": "Technical Partner",
+    "link": "https://www.usherbrooke.ca",
+    "logo": "/assets/logo/Logo_EMUS_V-BL_titre.png",
+    "summary": "Provides engineering collaboration and manufacturing support."
+  },
+  {
+    "name": "EMUS Placeholder 3",
+    "tier": "Supporting",
+    "link": "https://www.usherbrooke.ca",
+    "logo": "/assets/logo/Logo_EMUS_V-BL_titre.png",
+    "summary": "Supports testing and materials for the MotoStudent 2027 build."
+  }
+]

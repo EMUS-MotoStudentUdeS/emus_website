@@ -1,97 +1,77 @@
 ---
 layout: default
 title: Team
+permalink: /team/
 ---
 
-    <section class="page-hero">
-      <div class="tag">Team</div>
-      <h1>Engineering students building electric performance</h1>
-      <p class="lead">EMUS is an engineering student team from Université de Sherbrooke building a fully electric race bike for MotoStudent 2025.</p>
-      <div class="card-grid">
-        <div class="stat-block">
-          <p class="stat-value">Oct 15-19, 2025</p>
-          <p class="stat-label">MotoStudent final · MotorLand Aragón</p>
-        </div>
-        <div class="stat-block">
-          <p class="stat-value">13th worldwide</p>
-          <p class="stat-label">2023 result · 1st in the Americas</p>
-        </div>
-      </div>
-    </section>
+{% assign contact = site.data.contact %}
+{% assign team = site.data.team %}
+<section class="page-hero">
+  <div class="tag">Team</div>
+  <h1>Engineering students building electric performance</h1>
+  <p class="lead">EMUS is an engineering student team from Université de Sherbrooke building a fully electric race bike for MotoStudent 2027.</p>
+</section>
 
-    <section class="section section-tight" id="overview" aria-labelledby="team-overview-title">
-      <div class="section-heading">
-        <p class="section-kicker">Who we are</p>
-        <h2 id="team-overview-title">Students building a competitive electric prototype</h2>
-      </div>
-      <div class="split-2">
-        <div>
-          <p>Multidisciplinary students in mechanical, electrical, controls, software, and business collaborate to design, build, and test a fully electric race bike for MotoStudent 2025.</p>
-          <p>We mix classroom theory with track-ready engineering: from chassis and battery design to testing and race operations.</p>
-        </div>
-        <div class="placeholder-media" aria-hidden="true">Placeholder image</div>
-      </div>
-    </section>
+<section class="section section-tight" id="overview" aria-labelledby="team-overview-title">
+  <div class="section-heading">
+    <p class="section-kicker">Who we are</p>
+    <h2 id="team-overview-title">Students building a competitive electric prototype</h2>
+  </div>
+  <div class="split-2">
+    <div>
+      <p>Multidisciplinary students in mechanical, electrical, controls, software, and business collaborate to design, build, and test a fully electric race bike for MotoStudent 2027.</p>
+      <p>We mix classroom theory with track-ready engineering: from chassis and battery design to testing and race operations.</p>
+    </div>
+    <div class="placeholder-media" aria-hidden="true"><img src="/assets/team/Team_Competition_2025.jpg" alt="Team photo"></div>
+  </div>
+</section>
 
-    <section class="section section-tight" id="structure" aria-labelledby="team-structure-title">
-      <div class="section-heading">
-        <p class="section-kicker">Team structure</p>
-        <h2 id="team-structure-title">Leads and units</h2>
-        <p>Team structure: TODO add leads for mechanical, electrical, controls, software, chassis, battery, business/partnerships.</p>
-      </div>
-      <div class="card-grid wide">
-        <article class="info-card">
-          <div class="badge-label">Mechanical</div>
-          <h3>Chassis & dynamics</h3>
-          <p>TODO add lead and focus areas.</p>
-        </article>
-        <article class="info-card">
-          <div class="badge-label">Electrical</div>
-          <h3>Power & controls</h3>
-          <p>TODO add lead and focus areas.</p>
-        </article>
-        <article class="info-card">
-          <div class="badge-label">Battery</div>
-          <h3>Pack & thermal</h3>
-          <p>TODO add lead and focus areas.</p>
-        </article>
-        <article class="info-card">
-          <div class="badge-label">Software</div>
-          <h3>Telemetry & strategy</h3>
-          <p>TODO add lead and focus areas.</p>
-        </article>
-        <article class="info-card">
-          <div class="badge-label">Controls</div>
-          <h3>Vehicle dynamics</h3>
-          <p>TODO add lead and focus areas.</p>
-        </article>
-        <article class="info-card">
-          <div class="badge-label">Business</div>
-          <h3>Partnerships</h3>
-          <p>TODO add lead and focus areas.</p>
-        </article>
-      </div>
-    </section>
+<section class="section section-tight" id="structure" aria-labelledby="team-structure-title">
+  <div class="section-heading">
+    <p class="section-kicker">Team structure</p>
+    <h2 id="team-structure-title">Leads and units</h2>
+  </div>
+  {% assign grouped = team | group_by: "group" %}
+  {% for subgroup in grouped %}
+  <div class="subteam-block">
+    <h3 class="subteam-title">{{ subgroup.name }}</h3>
+    <div class="card-grid wide profile-grid">
+      {% for member in subgroup.items %}
+      <article class="profile-card">
+        <div class="profile-media">
+          <img src="{{ member.image | relative_url }}" alt="{{ member.name }} headshot">
+        </div>
+        <div class="profile-body">
+          <p class="badge-label">{{ member.role }}</p>
+          <h3>{{ member.name }}</h3>
+          <p>{{ member.focus }}</p>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</section>
 
-    <section class="section section-tight" id="join" aria-labelledby="join-title">
-      <div class="section-heading">
-        <p class="section-kicker">Recruitment</p>
-        <h2 id="join-title">Join the build</h2>
-        <p>Recruitment: TODO add how to join (email or form link).</p>
-      </div>
-      <div class="split-2">
-        <div class="info-card">
-          <h3>Open roles</h3>
-          <ul class="list-simple">
-            <li>Design & analysis</li>
-            <li>Manufacturing & testing</li>
-            <li>Controls & telemetry</li>
-            <li>Operations & partnerships</li>
-          </ul>
-        </div>
-        <div class="info-card">
-          <h3>How to apply</h3>
-          <p>Details coming soon. Include your focus area and availability when reaching out.</p>
-        </div>
-      </div>
-    </section>
+<section class="section section-tight" id="join" aria-labelledby="join-title">
+  <div class="section-heading">
+    <p class="section-kicker">Recruitment</p>
+    <h2 id="join-title">Join the build</h2>
+    <p>Recruitment: TODO add how to join (email or form link).</p>
+  </div>
+  <div class="split-2">
+    <div class="info-card">
+      <h3>Open roles</h3>
+      <ul class="list-simple">
+        <li>Design &amp; analysis</li>
+        <li>Manufacturing &amp; testing</li>
+        <li>Controls &amp; telemetry</li>
+        <li>Operations &amp; partnerships</li>
+      </ul>
+    </div>
+    <div class="info-card">
+      <h3>How to apply</h3>
+      <p>Details coming soon. Include your focus area and availability when reaching out.</p>
+    </div>
+  </div>
+</section>
