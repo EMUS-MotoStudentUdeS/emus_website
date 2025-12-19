@@ -179,26 +179,14 @@
   overflow: hidden;
   border-radius: var(--radius);
   border: 1px solid var(--color-border);
-  background-image: linear-gradient(135deg, rgba(139, 190, 39, 0.12), rgba(0, 0, 0, 0)),
-    linear-gradient(135deg, rgba(255, 255, 255, 0.06) 25%, transparent 25%),
-    linear-gradient(225deg, rgba(255, 255, 255, 0.06) 25%, transparent 25%),
-    linear-gradient(45deg, rgba(255, 255, 255, 0.06) 25%, transparent 25%),
-    linear-gradient(315deg, rgba(255, 255, 255, 0.06) 25%, rgba(0, 0, 0, 0) 25%);
-  background-size: 100% 100%, 16px 16px, 16px 16px, 16px 16px, 16px 16px;
-  background-position: center, 8px 0, 8px 0, 0 0, 0 0;
-  background-repeat: repeat;
   aspect-ratio: 4 / 3;
-  display: grid;
-  place-items: center;
 }
 
-.gallery-item span {
-  color: var(--color-text-subtle);
-  font-weight: 700;
-  background: rgba(0, 0, 0, 0.5);
-  padding: 0.35rem 0.6rem;
-  border-radius: var(--radius);
-  border: 1px solid var(--color-border);
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .timeline-simple {
