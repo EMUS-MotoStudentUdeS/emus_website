@@ -17,15 +17,13 @@ permalink: /team/
     <p class="section-kicker">Who we are</p>
     <h2 id="team-overview-title">Students building a competitive electric prototype</h2>
   </div>
-  <div class="split-2">
-    <div>
-      <p>Multidisciplinary students in mechanical, electrical, controls, software, and business collaborate to design, build, and test a fully electric race bike for MotoStudent 2027.</p>
-      <p>We mix classroom theory with track-ready engineering: from chassis and battery design to testing and race operations.</p>
-    </div>
-    <div class="placeholder-media" aria-hidden="true">
-      <img src="{{ '/assets/hero/MotoAragon.jpg' | relative_url }}" alt="Decorative MotoStudent image">
-    </div>
-  </div>
+  <p>Multidisciplinary students in mechanical, electrical, controls, software, and business collaborate to design, build, and test a fully electric race bike for MotoStudent 2027.</p>
+  <p>We mix classroom theory with track-ready engineering: from chassis and battery design to testing and race operations.</p>
+</section>
+
+<section class="section section-media-wide" aria-labelledby="team-photo-title">
+  <h2 id="team-photo-title" class="sr-only">Team photo</h2>
+  <img src="{{ '/assets/hero/team_whide.jpg' | relative_url }}" alt="EMUS team with the electric prototype on track">
 </section>
 
 <section class="section section-tight" id="structure" aria-labelledby="team-structure-title">
@@ -44,9 +42,18 @@ permalink: /team/
           <img src="{{ member.image | relative_url }}" alt="{{ member.name }} headshot">
         </div>
         <div class="profile-body">
-          <p class="badge-label">{{ member.role }}</p>
+          <div class="badge-list" aria-label="Roles">
+            {% for role in member.role %}
+            <span class="badge-label">{{ role }}</span>
+            {% endfor %}
+          </div>
           <h3>{{ member.name }}</h3>
           <p>{{ member.focus }}</p>
+          {% if member.contact and member.contact != "" %}
+          <p class="profile-contact">
+            <a href="mailto:{{ member.contact }}">{{ member.contact }}</a>
+          </p>
+          {% endif %}
         </div>
       </article>
       {% endfor %}

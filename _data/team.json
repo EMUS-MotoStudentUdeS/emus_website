@@ -1,114 +1,142 @@
 [
   {
-    "name": "Alexandre Blais",
-    "role": "ECU & Control Systems",
-    "focus": "ECU development, control logic, and system integration.",
+    "name": "Thomas Giroux",
+    "role": ["Drive Systems"],
+    "focus": "Drive systems integration and validation.",
     "group": "Electrical & Control Systems",
-    "image": "/assets/team/AlexBlais.jpg"
+    "image": "/assets/team/ThomGiroux.jpg",
+    "contact": ""
+  },
+    {
+    "name": "Maxime Boucher",
+    "role": ["Thermal Systems"],
+    "focus": "Thermal management and electronic integration.",
+    "group": "Electrical & Control Systems",
+    "image": "/assets/team/MaxBoucher.jpg",
+    "contact": ""
   },
   {
-    "name": "Julien Laflèche",
-    "role": "ECU & Battery Systems",
-    "focus": "Control software, battery integration, and validation.",
+    "name": "Alexandre Blais",
+    "role": ["ECU & Control Systems"],
+    "focus": "ECU development, control logic, and system integration.",
     "group": "Electrical & Control Systems",
-    "image": "/assets/team/placeholder-avatar-emus.png"
+    "image": "/assets/team/AlexBlais.jpg",
+    "contact": ""
+  },
+    {
+    "name": "Renaud Gagnon",
+    "role": ["Electrical systems supervisor", "Photographer","Mechatronics Engineer"],
+    "focus": "Rider controls and drive system integration.",
+    "group": "Electrical & Control Systems",
+    "image": "/assets/team/placeholder-avatar-emus.png",
+    "contact": "renaud.gagnon@usherbrooke.ca"
   },
   {
     "name": "Zachary Rodrigue",
-    "role": "Data Acquisition & Active Aero",
+    "role": ["Data Acquisition & Active Aero"],
     "focus": "Test data logging and support for active aerodynamic systems.",
     "group": "Electrical & Control Systems",
-    "image": "/assets/team/ZacharyRodrigue.jpg"
+    "image": "/assets/team/ZacharyRodrigue.jpg",
+    "contact": ""
+  },
+  {
+    "name": "Julien Laflèche",
+    "role": ["ECU & Battery Systems"],
+    "focus": "Control software, battery integration, and validation.",
+    "group": "Electrical & Control Systems",
+    "image": "/assets/team/placeholder-avatar-emus.png",
+    "contact": ""
+  },
+  { 
+    "name": "Loic Langlois",
+    "role": ["Structural Engineer"],
+    "focus": "Frame design.",
+    "group": "Mechanical & Powertrain",
+    "image": "/assets/team/LoicLanglois.jpg",
+    "contact": ""
   },
   {
     "name": "Émile Raymond",
-    "role": "Powertrain & Dyno Engineer",
+    "role": ["Powertrain & Dyno Engineer"],
     "focus": "Powertrain development, dyno systems, and transmission support.",
     "group": "Mechanical & Powertrain",
-    "image": "/assets/team/EmileRaymond.jpg"
+    "image": "/assets/team/EmileRaymond.jpg",
+    "contact": ""
   },
   {
     "name": "Félix Jacques",
-    "role": "Dyno Systems",
+    "role": ["Dyno Systems"],
     "focus": "Development and operation of dynamometer systems.",
     "group": "Electrical & Control Systems",
-    "image": "/assets/team/placeholder-avatar-emus.png"
+    "image": "/assets/team/placeholder-avatar-emus.png",
+    "contact": ""
   },
-  {
-    "name": "Maxime Boucher",
-    "role": "Thermal Systems",
-    "focus": "Thermal management and electronic integration.",
-    "group": "Electrical & Control Systems",
-    "image": "/assets/team/MaxBoucher.jpg"
-  },
-  {
-    "name": "Alexandre Duchesne",
-    "role": "Thermal Systems",
-    "focus": "Thermal integration and system optimization.",
-    "group": "Electrical & Control Systems",
-    "image": "/assets/team/placeholder-avatar-emus.png"
-  },
-  {
-    "name": "Renaud Gagnon",
-    "role": "Drive & Rider Interface",
-    "focus": "Rider controls and drive system integration.",
-    "group": "Electrical & Control Systems",
-    "image": "/assets/team/placeholder-avatar-emus.png"
-  },
+
   {
     "name": "Jérémy Marcoux",
-    "role": "Drive & Rider Interface",
+    "role": ["Drive & Rider Interface"],
     "focus": "Development of rider interfaces and ergonomics.",
     "group": "Electrical & Control Systems",
-    "image": "/assets/team/placeholder-avatar-emus.png"
+    "image": "/assets/team/placeholder-avatar-emus.png",
+    "contact": ""
   },
-  {
-    "name": "Thomas Giroux",
-    "role": "Drive Systems",
-    "focus": "Drive systems integration and validation.",
-    "group": "Electrical & Control Systems",
-    "image": "/assets/team/ThomGiroux.jpg"
-  },
+  
   {
     "name": "Alexandre Giguère",
-    "role": "Cooling & Aerodynamics",
+    "role": ["Cooling & Aerodynamics"],
     "focus": "Mechanical cooling systems and aerodynamic integration.",
     "group": "Aerodynamics & Vehicle Performance",
-    "image": "/assets/team/AlexGiguere.jpg"
+    "image": "/assets/team/AlexGiguere.jpg",
+    "contact": ""
   },
   {
     "name": "Philippe Gariépy",
-    "role": "Structural Design",
+    "role": ["Structural Design"],
     "focus": "Frame and structural component design.",
-    "group": "Chassis, Structure & Manufacturing",
-    "image": "/assets/team/placeholder-avatar-emus.png"
+    "group": "Mechanical & Powertrain",
+    "image": "/assets/team/placeholder-avatar-emus.png",
+    "contact": ""
   },
   {
     "name": "Nicolas Bernard",
-    "role": "Structure & Aerodynamics",
+    "role": ["Structure & Aerodynamics"],
     "focus": "Structural design and aerodynamic hardware integration.",
-    "group": "Chassis, Structure & Manufacturing",
-    "image": "/assets/team/placeholder-avatar-emus.png"
+    "group": "Mechanical & Powertrain",
+    "image": "/assets/team/placeholder-avatar-emus.png",
+    "contact": ""
   },
   {
     "name": "Charles-Éric Blais",
-    "role": "Aerodynamics",
+    "role": ["Aerodynamics"],
     "focus": "Aerodynamic analysis, design, and validation.",
     "group": "Aerodynamics & Vehicle Performance",
-    "image": "/assets/team/placeholder-avatar-emus.png"
+    "image": "/assets/team/placeholder-avatar-emus.png",
+    "contact": ""
   },
   {
     "name": "William Roy",
-    "role": "Concept Research & Marketing",
+    "role": ["Mentor", "Ryder", "Head of communications"],
     "focus": "Exploratory concept research and marketing strategy.",
     "group": "Race Operations & Outreach",
-    "image": "/assets/team/WillRoy.jpg"
+    "image": "/assets/team/WillRoy.jpg",
+    "contact": ""
   },
   {
     "name": "Aymrik Rodrigue",
-    "role": "Marketing & Communications",
+    "role": ["Marketing & Communications"],
     "focus": "Communications, outreach, and sponsor relations.",
     "group": "Race Operations & Outreach",
-    "image": "/assets/team/placeholder-avatar-emus.png"
+    "image": "/assets/team/placeholder-avatar-emus.png",
+    "contact": ""
+  },
+  {
+    "name": "Guillaume Dion",
+    "role": [],
+    "focus": "",
+    "group": "Mechanical & Powertrain",
+    "image": "/assets/team/placeholder-avatar-emus.png",
+    "contact": ""
   }
 ]
+
+
