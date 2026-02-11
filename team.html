@@ -2,14 +2,25 @@
 layout: default
 title: Team
 permalink: /team/
+styles:
+- /styles/home.css
 ---
 
 {% assign contact = site.data.contact %}
 {% assign team = site.data.team %}
 <section class="page-hero">
+  <div class="hero__grid">
+  <div class="hero__content">
   <div class="tag">Team</div>
   <h1>Engineering students building electric performance</h1>
   <p class="lead">EMUS is an engineering student team from Université de Sherbrooke building a fully electric race bike for MotoStudent 2027.</p>
+  </div>
+  <div class="hero__visual" aria-hidden="true">
+    <div class="hero__glow"></div>
+    <div class="placeholder-media">
+      <img src="{{ '/assets/hero/team2.webp' | relative_url }}" alt="EMUS team with the electric prototype on track">
+    </div>
+  </div>
 </section>
 
 <section class="section section-tight" id="overview" aria-labelledby="team-overview-title">

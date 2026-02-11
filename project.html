@@ -2,76 +2,106 @@
 layout: default
 title: Project
 permalink: /project/
+styles:
+- /styles/home.css
 ---
 
 <section class="page-hero">
-  <div class="tag">Project</div>
-  <h1>Building a 100% electric race prototype</h1>
-  <p class="lead">The project delivers a 100% electric prototype capable of competing at MotorLand Aragón in October 2027.</p>
-  <div class="card-grid">
-    <div class="stat-block">
-      <p class="stat-value">Electric category</p>
-      <p class="stat-label">MotoStudent</p>
+  <div class="hero__grid">
+  <div class="hero__content">
+    <div class="tag">Project</div>
+    <h1>Building a 100% electric race prototype</h1>
+    <p class="lead">The project delivers a 100% electric prototype capable of competing at MotorLand Aragón in October
+      2027.</p>
+    <div class="card-grid">
+      <div class="stat-block">
+        <p class="stat-value">Electric category</p>
+        <p class="stat-label">MotoStudent</p>
+      </div>
+      <div class="stat-block">
+        <p class="stat-value">MotorLand Aragón</p>
+        <p class="stat-label">Alcañiz, Spain</p>
+      </div>
     </div>
-    <div class="stat-block">
-      <p class="stat-value">MotorLand Aragón</p>
-      <p class="stat-label">Alcañiz, Spain</p>
+  </div>
+  <div class="hero__visual" aria-hidden="true">
+    <div class="hero__glow"></div>
+    <div class="placeholder-media">
+      <img src="{{ '/assets/hero/alex&moto.webp' | relative_url }}" alt="Decorative hero image">
     </div>
+  </div>
   </div>
 </section>
 
 <section class="section section-tight" id="objectives" aria-labelledby="objectives-title">
   <div class="split-2 split-2-top">
+    <div class="placeholder-media" aria-hidden="true">
+      <img src="{{ 'assets\hero\CAD_Moto.webp' | relative_url }}" alt="Decorative project render">
+    </div>
     <div>
       <div class="section-heading">
         <p class="section-kicker">Objectives</p>
         <h2 id="objectives-title">Race-ready for October 2027</h2>
       </div>
-      <p>We are engineering a competitive electric motorcycle that meets MotoStudent technical requirements and performs reliably at MotorLand Arag??n.</p>
+      <p>We are engineering a competitive electric motorcycle that meets MotoStudent technical requirements and performs
+        reliably at MotorLand Aragón.</p>
       <p>Timeline highlights: design validation now; build and testing through 2027; final event Oct 2027.</p>
     </div>
-    <div class="placeholder-media" aria-hidden="true">
-      <img src="{{ 'assets\hero\CAD_Moto.png' | relative_url }}" alt="Decorative project render">
-    </div>
+    
   </div>
 </section>
 <section class="section section-tight" id="focus" aria-labelledby="focus-title">
   <div class="section-heading">
     <p class="section-kicker">Technical focus areas</p>
     <h2 id="focus-title">Systems in development</h2>
-    <p>Technical focus areas: TODO add motor/inverter details, battery pack overview, chassis/aero notes, testing goals.</p>
   </div>
-  <div class="card-grid wide">
-    <article class="info-card">
-      <div class="badge-label">Powertrain</div>
-      <h3>Motor & inverter</h3>
-      <p>TODO add specifications and targets.</p>
-    </article>
-    <article class="info-card">
-      <div class="badge-label">Energy</div>
-      <h3>Battery pack</h3>
-      <p>TODO add pack architecture and thermal strategy.</p>
-    </article>
-    <article class="info-card">
-      <div class="badge-label">Chassis</div>
-      <h3>Frame & dynamics</h3>
-      <p>TODO add geometry and stiffness goals.</p>
-    </article>
-    <article class="info-card">
-      <div class="badge-label">Controls</div>
-      <h3>Vehicle control</h3>
-      <p>TODO add torque control and traction strategies.</p>
-    </article>
-    <article class="info-card">
-      <div class="badge-label">Validation</div>
-      <h3>Testing & telemetry</h3>
-      <p>TODO add test plan and data stack.</p>
-    </article>
-    <article class="info-card">
-      <div class="badge-label">Safety</div>
-      <h3>Regulatory readiness</h3>
-      <p>TODO add compliance checkpoints.</p>
-    </article>
+  <div class="focus-grid" style="display: grid; grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr); gap: 1.5rem; align-items: stretch;">
+    <div class="focus-media">
+      <img src="{{ '/assets/hero/moto2.webp' | relative_url }}" alt="EMUS MotoStudent electric prototype">
+    </div>
+    <div class="card-grid card-grid--single" style="grid-template-columns: minmax(0, 1fr); align-content: start;">
+      <article class="info-card">
+        <div class="badge-label">Powertrain</div>
+        <h3>Motor & inverter</h3>
+        <p>Our goal this year is to perfect the motor and inverter design to pump the last remaining performance gains.
+          This means tuning the inverter's control algorithms so that we can push the motor to its maximum efficiency and
+          power output, getting as close as possible to the thermal limit of the motor.</p>
+      </article>
+      <article class="info-card">
+        <div class="badge-label">Energy</div>
+        <h3>Battery pack</h3>
+        <p>Last year we designed a battery pack with the latest and highest performance battery technology. For 2027 we
+          aim to update the pack to new generation cells and improve the tuning of our custom active balancing BMS.</p>
+      </article>
+      <article class="info-card">
+        <div class="badge-label">Chassis</div>
+        <h3>Frame & dynamics</h3>
+        <p></p>
+      </article>
+      <article class="info-card">
+        <div class="badge-label">Controls</div>
+        <h3>Vehicle control</h3>
+        <p>For 2027 we are working on designing our own ECU to control all vehicle systems and ensure optimal performance
+          and easy customization.</p>
+      </article>
+      <article class="info-card">
+        <div class="badge-label">Validation</div>
+        <h3>Testing & telemetry</h3>
+        <p>The bike for 2025 had new sensors and telemetry systems to support data-driven development and performance
+          tuning. For 2027 we are planning on adding more sensors and integrating their data in the vehicle's control
+          system to improve performance and reliability.</p>
+      </article>
+      <article class="info-card">
+        <div class="badge-label">Cooling</div>
+        <h3>Cooling system design</h3>
+        <p></p>
+      </article>
+      <article class="info-card">
+        <div class="badge-label">Aerodynamics</div>
+        <h3>Fairing design and optimisation</h3>
+        <p></p>
+      </article>
+    </div>
   </div>
 </section>
 
@@ -85,19 +115,19 @@ permalink: /project/
       <ul class="timeline-simple">
         <li>
           <p class="title">Design & validation</p>
-          <p class="meta">In progress ?? System architecture, analysis, supplier alignment</p>
+          <p class="meta">In progress. System architecture, analysis, supplier alignment</p>
         </li>
         <li>
           <p class="title">Build & integration</p>
-          <p class="meta">2024??"2027 ?? Manufacturing, assembly, subsystem testing</p>
+          <p class="meta">2026-2027 : Manufacturing, assembly, subsystem testing</p>
         </li>
         <li>
           <p class="title">Track testing</p>
-          <p class="meta">2026??"2027 ?? Performance tuning and reliability</p>
+          <p class="meta">2027 : Performance tuning and reliability</p>
         </li>
         <li>
           <p class="title">Final event</p>
-          <p class="meta">Oct 2027 ?? MotorLand Arag??n</p>
+          <p class="meta">Oct 2027 : MotorLand Aragon!</p>
         </li>
       </ul>
     </div>
