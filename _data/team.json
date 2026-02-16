@@ -5,7 +5,7 @@
     "focus": "Drive systems integration and validation.",
     "group": "Electrical & Control Systems",
     "image": "/assets/team/ThomGiroux.jpg",
-    "contact": ""
+    "contact": "thomas.giroux3@usherbrooke.ca"
   },
     {
     "name": "Maxime Boucher",
@@ -13,7 +13,7 @@
     "focus": "Thermal management and electronic integration.",
     "group": "Electrical & Control Systems",
     "image": "/assets/team/MaxBoucher.jpg",
-    "contact": ""
+    "contact": "maxime.boucher5@usherbrooke.ca"
   },
   {
     "name": "Alexandre Blais",
@@ -21,11 +21,11 @@
     "focus": "ECU development, control logic, and system integration.",
     "group": "Electrical & Control Systems",
     "image": "/assets/team/AlexBlais.jpg",
-    "contact": ""
+    "contact": "alexandre.blais6@usherbrooke.ca"
   },
     {
     "name": "Renaud Gagnon",
-    "role": ["Electrical systems supervisor", "Photographer","Mechatronics Engineer"],
+    "role": ["Mechatronics designer", "Photographer"],
     "focus": "Rider controls and drive system integration.",
     "group": "Electrical & Control Systems",
     "image": "/assets/team/placeholder-avatar-emus.png",
@@ -45,6 +45,14 @@
     "focus": "Control software, battery integration, and validation.",
     "group": "Electrical & Control Systems",
     "image": "/assets/team/placeholder-avatar-emus.png",
+    "contact": "julien.lafleche@usherbrooke.ca"
+  },
+  {
+    "name": "William Roy",
+    "role": ["Mentor", "Ryder", "Mechanical Engineer"],
+    "focus": "Exploratory concept research and marketing strategy.",
+    "group": "Mechanical & Powertrain",
+    "image": "/assets/team/WillRoy.jpg",
     "contact": ""
   },
   { 
@@ -53,7 +61,7 @@
     "focus": "Frame design.",
     "group": "Mechanical & Powertrain",
     "image": "/assets/team/LoicLanglois.jpg",
-    "contact": ""
+    "contact": "loic.langlois2@usherbrooke.ca"
   },
   {
     "name": "Émile Raymond",
@@ -68,7 +76,7 @@
     "role": ["Dyno Systems"],
     "focus": "Development and operation of dynamometer systems.",
     "group": "Electrical & Control Systems",
-    "image": "/assets/team/placeholder-avatar-emus.png",
+    "image": "/assets/team/FelixJacques.jpg",
     "contact": ""
   },
 
@@ -77,7 +85,7 @@
     "role": ["Drive & Rider Interface"],
     "focus": "Development of rider interfaces and ergonomics.",
     "group": "Electrical & Control Systems",
-    "image": "/assets/team/placeholder-avatar-emus.png",
+    "image": "/assets/team/JeremyMarcoux.jpg",
     "contact": ""
   },
   
@@ -94,8 +102,8 @@
     "role": ["Structural Design"],
     "focus": "Frame and structural component design.",
     "group": "Mechanical & Powertrain",
-    "image": "/assets/team/placeholder-avatar-emus.png",
-    "contact": ""
+    "image": "/assets/team/PhilippeGariepy.jpg",
+    "contact": "philippe.gariepy2@usherbrooke.ca"
   },
   {
     "name": "Nicolas Bernard",
@@ -103,6 +111,14 @@
     "focus": "Structural design and aerodynamic hardware integration.",
     "group": "Mechanical & Powertrain",
     "image": "/assets/team/placeholder-avatar-emus.png",
+    "contact": ""
+  },
+  {
+    "name": "Manuel Gaudreault",
+    "role": ["Aerodynamics"],
+    "focus": "Aerodynamics validation.",
+    "group": "Aerodynamics & Vehicle Performance",
+    "image": "/assets/team/ManuelGaudreault.jpg",
     "contact": ""
   },
   {
@@ -114,26 +130,34 @@
     "contact": ""
   },
   {
-    "name": "William Roy",
-    "role": ["Mentor", "Ryder", "Head of communications"],
-    "focus": "Exploratory concept research and marketing strategy.",
-    "group": "Race Operations & Outreach",
-    "image": "/assets/team/WillRoy.jpg",
-    "contact": ""
+    "name": "Guillaume Dion",
+    "role": ["Structural Designer"],
+    "focus": "",
+    "group": "Mechanical & Powertrain",
+    "image": "/assets/team/placeholder-avatar-emus.png",
+    "contact": "guillaume.dion3@usherbrooke.ca"
   },
+  {
+    "name": "Aimeric Bouillon",
+    "role": ["Dyno Systems"],
+    "focus": "",
+    "group": "Mechanical & Powertrain",
+    "image": "/assets/team/placeholder-avatar-emus.png",
+    "contact": "aimeric.bouillon@usherbrooke.ca"
+  },
+  {
+    "name": "Alexandre Roy",
+    "role": ["Data logging integrator"],
+    "focus": "",
+    "group": "Electrical & Control Systems",
+    "image": "/assets/team/placeholder-avatar-emus.png",
+    "contact": "alexandre.roy14@usherbrooke.ca"
+  },  
   {
     "name": "Aymrik Rodrigue",
     "role": ["Marketing & Communications"],
     "focus": "Communications, outreach, and sponsor relations.",
     "group": "Race Operations & Outreach",
-    "image": "/assets/team/placeholder-avatar-emus.png",
-    "contact": ""
-  },
-  {
-    "name": "Guillaume Dion",
-    "role": [],
-    "focus": "",
-    "group": "Mechanical & Powertrain",
     "image": "/assets/team/placeholder-avatar-emus.png",
     "contact": ""
   }

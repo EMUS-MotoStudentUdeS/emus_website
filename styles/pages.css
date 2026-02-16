@@ -193,11 +193,7 @@
   margin-bottom: 0;
 }
 
-.badge-list .badge-label + .badge-label::before {
-  content: "\00b7";
-  margin-right: 0.4rem;
-  color: var(--color-text-subtle);
-}
+
 
 .stat-block {
   border: 1px solid var(--color-border);
