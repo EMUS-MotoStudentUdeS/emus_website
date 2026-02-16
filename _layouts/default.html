@@ -21,6 +21,7 @@
     {{ content }}
   </main>
   {% include footer.html %}
+  <script id="i18n-dictionary" type="application/json">{{ site.data.i18n | jsonify }}</script>
   <script src="{{ '/scripts/site.js' | relative_url }}"></script>
 </body>
 </html>

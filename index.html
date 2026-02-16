@@ -11,24 +11,29 @@ permalink: /
 <section class="hero" id="top">
   <div class="hero__grid">
     <div class="hero__content">
-      <p class="eyebrow">MotoStudent Electric</p>
-      <h1>From Sherbrooke to MotorLand Aragón</h1>
-      <p class="lead">
-        EMUS (Electric Motorcycle of Université de Sherbrooke) is a student engineering team developing a 100% electric race motorcycle for the MotoStudent competition in Spain.
+      <p class="eyebrow" data-i18n-key="home.hero.eyebrow">MotoStudent Electric</p>
+      <h1 data-i18n-key="home.hero.title">From Sherbrooke to MotorLand Aragon</h1>
+      <p class="lead" data-i18n-key="home.hero.lead">
+        EMUS (Electric Motorcycle of Universite de Sherbrooke) is a student engineering team developing a 100% electric race motorcycle for the MotoStudent competition in Spain.
       </p>
       <div class="hero__actions">
-        <a class="button button-primary" href="#about">What is MotoStudent?</a>
-        <a class="button button-ghost" href="#contact">Get in touch</a>
+        <a class="button button-primary" href="#about" data-i18n-key="home.hero.primary_cta">What is MotoStudent?</a>
+        <a class="button button-ghost" href="#contact" data-i18n-key="home.hero.secondary_cta">Get in touch</a>
       </div>
       <div class="hero__fact">
-        <span class="fact-label">Next race</span>
-        <span class="fact-value">MotorLand Aragón · Oct 2027</span>
+        <span class="fact-label" data-i18n-key="home.hero.next_race_label">Next race</span>
+        <span class="fact-value" data-i18n-key="home.hero.next_race_value">MotorLand Aragon - Oct 2027</span>
       </div>
     </div>
     <div class="hero__visual" aria-hidden="true">
       <div class="hero__glow"></div>
       <div class="hero__image">
-        <img src="{{ '/assets/hero/MotoAragon.jpg' | relative_url }}" alt="Decorative hero image">
+        <img
+          src="{{ '/assets/hero/MotoAragon.jpg' | relative_url }}"
+          alt="Decorative hero image"
+          data-i18n-key="home.hero.image_alt"
+          data-i18n-attr="alt"
+          data-i18n-attr-only="true">
       </div>
     </div>
   </div>
@@ -37,72 +42,75 @@ permalink: /
 <section class="section" id="facts" aria-labelledby="facts-title">
   <div class="split-2 split-2-top">
     <div class="placeholder-media" aria-hidden="true">
-      <img src="{{ 'assets/hero/working.webp' | relative_url }}" alt="Decorative project render">
+      <img
+        src="{{ '/assets/hero/working.webp' | relative_url }}"
+        alt="Decorative project render"
+        data-i18n-key="home.facts.image_alt"
+        data-i18n-attr="alt"
+        data-i18n-attr-only="true">
     </div>
     <div>
-    <div class="section-heading">
-    <p class="section-kicker">Quick facts</p>
-    <h2 id="facts-title">Race-ready in 2027</h2>
+      <div class="section-heading">
+        <p class="section-kicker" data-i18n-key="home.facts.kicker">Quick facts</p>
+        <h2 id="facts-title" data-i18n-key="home.facts.title">Race-ready in 2027</h2>
+      </div>
+      <div class="fact-grid">
+        <article class="fact-card">
+          <p class="fact-card-label" data-i18n-key="home.facts.card_1_label">Final event</p>
+          <p class="fact-card-value" data-i18n-key="home.facts.card_1_value">Oct 2027</p>
+          <p class="fact-card-note" data-i18n-key="home.facts.card_1_note">MotorLand Aragon, Alcaniz (Spain)</p>
+        </article>
+        <article class="fact-card">
+          <p class="fact-card-label" data-i18n-key="home.facts.card_2_label">2023 performance</p>
+          <p class="fact-card-value" data-i18n-key="home.facts.card_2_value">13th worldwide</p>
+          <p class="fact-card-note" data-i18n-key="home.facts.card_2_note">1st among American teams</p>
+        </article>
+        <article class="fact-card">
+          <p class="fact-card-label" data-i18n-key="home.facts.card_3_label">Focus</p>
+          <p class="fact-card-value" data-i18n-key="home.facts.card_3_value">100% electric prototype</p>
+          <p class="fact-card-note" data-i18n-key="home.facts.card_3_note">Built by engineering students</p>
+        </article>
+      </div>
     </div>
-  <div class="fact-grid">
-    <article class="fact-card">
-      <p class="fact-card-label">Final event</p>
-      <p class="fact-card-value">Oct 2027</p>
-      <p class="fact-card-note">MotorLand Aragón, Alcañiz (Spain)</p>
-    </article>
-    <article class="fact-card">
-      <p class="fact-card-label">2023 performance</p>
-      <p class="fact-card-value">13th worldwide</p>
-      <p class="fact-card-note">1st among American teams</p>
-    </article>
-    <article class="fact-card">
-      <p class="fact-card-label">Focus</p>
-      <p class="fact-card-value">100% electric prototype</p>
-      <p class="fact-card-note">Built by engineering students</p>
-    </article>
   </div>
-  </div>
-    
-  </div>
-  
 </section>
 
 <section class="section section-split" id="about" aria-labelledby="about-title">
   <div class="section-heading">
-    <p class="section-kicker">About MotoStudent</p>
-    <h2 id="about-title">Design. Build. Race.</h2>
+    <p class="section-kicker" data-i18n-key="home.about.kicker">About MotoStudent</p>
+    <h2 id="about-title" data-i18n-key="home.about.title">Design. Build. Race.</h2>
   </div>
   <div class="split-grid">
     <div class="split-text">
-      <p>
-        MotoStudent is an international engineering competition where university teams design and build a race motorcycle prototype, evaluated at MotorLand Aragón (Alcañiz, Spain). Categories include Petrol and Electric.
+      <p data-i18n-key="home.about.paragraph_1">
+        MotoStudent is an international engineering competition where university teams design and build a race motorcycle prototype, evaluated at MotorLand Aragon (Alcaniz, Spain). Categories include Petrol and Electric.
       </p>
-      <p>
-        EMUS is competing in the Electric category, bringing together students from the Université de Sherbrooke to engineer a fully electric race bike for MotoStudent 2027.
+      <p data-i18n-key="home.about.paragraph_2">
+        EMUS is competing in the Electric category, bringing together students from the Universite de Sherbrooke to engineer a fully electric race bike for MotoStudent 2027.
       </p>
     </div>
     <div class="split-card" aria-hidden="true">
-      <div class="split-card-header">Competition timeline</div>
+      <div class="split-card-header" data-i18n-key="home.about.timeline_header">Competition timeline</div>
       <ul class="timeline">
         <li>
           <span class="timeline-dot"></span>
           <div>
-            <p class="timeline-title">Design + validation</p>
-            <p class="timeline-note">Now · System architecture, validation, supplier alignment</p>
+            <p class="timeline-title" data-i18n-key="home.about.timeline_1_title">Design + validation</p>
+            <p class="timeline-note" data-i18n-key="home.about.timeline_1_note">Now - System architecture, validation, supplier alignment</p>
           </div>
         </li>
         <li>
           <span class="timeline-dot"></span>
           <div>
-            <p class="timeline-title">Build</p>
-            <p class="timeline-note">2026–2027 · Prototype manufacturing and testing</p>
+            <p class="timeline-title" data-i18n-key="home.about.timeline_2_title">Build</p>
+            <p class="timeline-note" data-i18n-key="home.about.timeline_2_note">2026-2027 - Prototype manufacturing and testing</p>
           </div>
         </li>
         <li>
           <span class="timeline-dot"></span>
           <div>
-            <p class="timeline-title">Final event</p>
-            <p class="timeline-note">Oct 2027 · MotorLand Aragón</p>
+            <p class="timeline-title" data-i18n-key="home.about.timeline_3_title">Final event</p>
+            <p class="timeline-note" data-i18n-key="home.about.timeline_3_note">Oct 2027 - MotorLand Aragon</p>
           </div>
         </li>
       </ul>
@@ -112,25 +120,25 @@ permalink: /
 
 <section class="section section-highlight" id="sponsors" aria-labelledby="sponsors-title">
   <div class="section-heading">
-    <p class="section-kicker">Sponsors</p>
-    <h2 id="sponsors-title">Support the build</h2>
+    <p class="section-kicker" data-i18n-key="home.sponsors.kicker">Sponsors</p>
+    <h2 id="sponsors-title" data-i18n-key="home.sponsors.title">Support the build</h2>
   </div>
   <div class="highlight-grid">
     <div>
-      <p>
+      <p data-i18n-key="home.sponsors.paragraph">
         Support EMUS: funding, manufacturing, materials, and technical mentorship. Strategic partners help accelerate testing, manufacturing, and race readiness.
       </p>
       <div class="highlight-actions">
-        <a class="button button-primary" href="{{ '/sponsors/' | relative_url }}">Sponsor the team</a>
-        <a class="button button-ghost" href="#contact">Email us</a>
+        <a class="button button-primary" href="{{ '/sponsors/' | relative_url }}" data-i18n-key="home.sponsors.primary_cta">Sponsor the team</a>
+        <a class="button button-ghost" href="#contact" data-i18n-key="home.sponsors.secondary_cta">Email us</a>
       </div>
     </div>
     <div class="highlight-card" aria-hidden="true">
-      <p class="card-label">What we can showcase</p>
+      <p class="card-label" data-i18n-key="home.sponsors.card_label">What we can showcase</p>
       <ul class="list-simple">
-        <li>Trackside visibility at MotorLand Aragón</li>
-        <li>Engineering collaboration with students</li>
-        <li>Technical talks and campus demos</li>
+        <li data-i18n-key="home.sponsors.item_1">Trackside visibility at MotorLand Aragon</li>
+        <li data-i18n-key="home.sponsors.item_2">Engineering collaboration with students</li>
+        <li data-i18n-key="home.sponsors.item_3">Technical talks and campus demos</li>
       </ul>
     </div>
   </div>
@@ -138,31 +146,31 @@ permalink: /
 
 <section class="section" id="contact" aria-labelledby="contact-title">
   <div class="section-heading">
-    <p class="section-kicker">Contact</p>
-    <h2 id="contact-title">Let's talk</h2>
+    <p class="section-kicker" data-i18n-key="home.contact.kicker">Contact</p>
+    <h2 id="contact-title" data-i18n-key="home.contact.title">Let's talk</h2>
   </div>
   <div class="contact-grid">
     <div>
-      <p>Want to partner, mentor, or learn more about the project? Reach out and we'll connect you with the right team lead.</p>
+      <p data-i18n-key="home.contact.paragraph">Want to partner, mentor, or learn more about the project? Reach out and we'll connect you with the right team lead.</p>
       <ul class="contact-list">
         <li>
-          <span class="contact-label">Email</span>
+          <span class="contact-label" data-i18n-key="home.contact.email">Email</span>
           <span class="contact-value"><a href="mailto:{{ contact.email }}">{{ contact.email }}</a></span>
         </li>
         <li>
-          <span class="contact-label">Facebook</span>
+          <span class="contact-label" data-i18n-key="home.contact.facebook">Facebook</span>
           <span class="contact-value"><a href="{{ contact.facebook }}" target="_blank" rel="noreferrer">{{ contact.facebook }}</a></span>
         </li>
         <li>
-          <span class="contact-label">Instagram</span>
+          <span class="contact-label" data-i18n-key="home.contact.instagram">Instagram</span>
           <span class="contact-value"><a href="{{ contact.instagram }}" target="_blank" rel="noreferrer">{{ contact.instagram }}</a></span>
         </li>
       </ul>
     </div>
     <div class="contact-card" aria-hidden="true">
-      <p class="card-label">Based in</p>
-      <p class="card-value">Sherbrooke, QC</p>
-      <p class="card-note">Université de Sherbrooke · Faculty of Engineering</p>
+      <p class="card-label" data-i18n-key="home.contact.based_in_label">Based in</p>
+      <p class="card-value" data-i18n-key="home.contact.based_in_value">Sherbrooke, QC</p>
+      <p class="card-note" data-i18n-key="home.contact.based_in_note">Universite de Sherbrooke - Faculty of Engineering</p>
     </div>
   </div>
 </section>

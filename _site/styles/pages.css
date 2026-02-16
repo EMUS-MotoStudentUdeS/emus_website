@@ -391,8 +391,3 @@
   }
 }
 
-@media (max-width: 900px) {
-  .sideImg-grid{
-    grid-template-columns: 1fr;
-  }
-}

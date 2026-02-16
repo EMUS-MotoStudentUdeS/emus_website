@@ -23,20 +23,29 @@
       <img src="/assets/logo/Logo_EMUS_V-NR_titre.png" alt="EMUS logo" class="logo logo-dark">
     </a>
   </div>
-  <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
-    <span class="sr-only">Toggle navigation</span>
-    <span class="nav-toggle-bar"></span>
-    <span class="nav-toggle-bar"></span>
-    <span class="nav-toggle-bar"></span>
-  </button>
-  <nav id="site-nav" class="site-nav" aria-label="Primary">
+  <div class="header-controls">
+    <button
+      class="lang-toggle"
+      type="button"
+      data-language-toggle
+      aria-label="Switch to French">
+      FR
+    </button>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+      <span class="sr-only" data-i18n-key="site.nav.toggle">Toggle navigation</span>
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+    </button>
+  </div>
+  <nav id="site-nav" class="site-nav" aria-label="Primary" data-i18n-key="site.nav.aria" data-i18n-attr="aria-label" data-i18n-attr-only="true">
     <ul>
-      <li><a href="/" class="active">Home</a></li>
-      <li><a href="/team/" class="">Team</a></li>
-      <li><a href="/project/" class="">Project</a></li>
-      <li><a href="/sponsors/" class="">Sponsors</a></li>
-      <li><a href="/gallery/" class="">Gallery</a></li>
-      <li><a href="/contact/" class="">Contact</a></li>
+      <li><a href="/" class="active" data-i18n-key="site.nav.home">Home</a></li>
+      <li><a href="/team/" class="" data-i18n-key="site.nav.team">Team</a></li>
+      <li><a href="/project/" class="" data-i18n-key="site.nav.project">Project</a></li>
+      <li><a href="/sponsors/" class="" data-i18n-key="site.nav.sponsors">Sponsors</a></li>
+      <li><a href="/gallery/" class="" data-i18n-key="site.nav.gallery">Gallery</a></li>
+      <li><a href="/contact/" class="" data-i18n-key="site.nav.contact">Contact</a></li>
     </ul>
   </nav>
 </header>
@@ -47,24 +56,29 @@
 <section class="hero" id="top">
   <div class="hero__grid">
     <div class="hero__content">
-      <p class="eyebrow">MotoStudent Electric</p>
-      <h1>From Sherbrooke to MotorLand Aragón</h1>
-      <p class="lead">
-        EMUS (Electric Motorcycle of Université de Sherbrooke) is a student engineering team developing a 100% electric race motorcycle for the MotoStudent competition in Spain.
+      <p class="eyebrow" data-i18n-key="home.hero.eyebrow">MotoStudent Electric</p>
+      <h1 data-i18n-key="home.hero.title">From Sherbrooke to MotorLand Aragon</h1>
+      <p class="lead" data-i18n-key="home.hero.lead">
+        EMUS (Electric Motorcycle of Universite de Sherbrooke) is a student engineering team developing a 100% electric race motorcycle for the MotoStudent competition in Spain.
       </p>
       <div class="hero__actions">
-        <a class="button button-primary" href="#about">What is MotoStudent?</a>
-        <a class="button button-ghost" href="#contact">Get in touch</a>
+        <a class="button button-primary" href="#about" data-i18n-key="home.hero.primary_cta">What is MotoStudent?</a>
+        <a class="button button-ghost" href="#contact" data-i18n-key="home.hero.secondary_cta">Get in touch</a>
       </div>
       <div class="hero__fact">
-        <span class="fact-label">Next race</span>
-        <span class="fact-value">MotorLand Aragón · Oct 2027</span>
+        <span class="fact-label" data-i18n-key="home.hero.next_race_label">Next race</span>
+        <span class="fact-value" data-i18n-key="home.hero.next_race_value">MotorLand Aragon - Oct 2027</span>
       </div>
     </div>
     <div class="hero__visual" aria-hidden="true">
       <div class="hero__glow"></div>
       <div class="hero__image">
-        <img src="/assets/hero/MotoAragon.jpg" alt="Decorative hero image">
+        <img
+          src="/assets/hero/MotoAragon.jpg"
+          alt="Decorative hero image"
+          data-i18n-key="home.hero.image_alt"
+          data-i18n-attr="alt"
+          data-i18n-attr-only="true">
       </div>
     </div>
   </div>
@@ -73,72 +87,75 @@
 <section class="section" id="facts" aria-labelledby="facts-title">
   <div class="split-2 split-2-top">
     <div class="placeholder-media" aria-hidden="true">
-      <img src="/assets/hero/working.webp" alt="Decorative project render">
+      <img
+        src="/assets/hero/working.webp"
+        alt="Decorative project render"
+        data-i18n-key="home.facts.image_alt"
+        data-i18n-attr="alt"
+        data-i18n-attr-only="true">
     </div>
     <div>
-    <div class="section-heading">
-    <p class="section-kicker">Quick facts</p>
-    <h2 id="facts-title">Race-ready in 2027</h2>
+      <div class="section-heading">
+        <p class="section-kicker" data-i18n-key="home.facts.kicker">Quick facts</p>
+        <h2 id="facts-title" data-i18n-key="home.facts.title">Race-ready in 2027</h2>
+      </div>
+      <div class="fact-grid">
+        <article class="fact-card">
+          <p class="fact-card-label" data-i18n-key="home.facts.card_1_label">Final event</p>
+          <p class="fact-card-value" data-i18n-key="home.facts.card_1_value">Oct 2027</p>
+          <p class="fact-card-note" data-i18n-key="home.facts.card_1_note">MotorLand Aragon, Alcaniz (Spain)</p>
+        </article>
+        <article class="fact-card">
+          <p class="fact-card-label" data-i18n-key="home.facts.card_2_label">2023 performance</p>
+          <p class="fact-card-value" data-i18n-key="home.facts.card_2_value">13th worldwide</p>
+          <p class="fact-card-note" data-i18n-key="home.facts.card_2_note">1st among American teams</p>
+        </article>
+        <article class="fact-card">
+          <p class="fact-card-label" data-i18n-key="home.facts.card_3_label">Focus</p>
+          <p class="fact-card-value" data-i18n-key="home.facts.card_3_value">100% electric prototype</p>
+          <p class="fact-card-note" data-i18n-key="home.facts.card_3_note">Built by engineering students</p>
+        </article>
+      </div>
     </div>
-  <div class="fact-grid">
-    <article class="fact-card">
-      <p class="fact-card-label">Final event</p>
-      <p class="fact-card-value">Oct 2027</p>
-      <p class="fact-card-note">MotorLand Aragón, Alcañiz (Spain)</p>
-    </article>
-    <article class="fact-card">
-      <p class="fact-card-label">2023 performance</p>
-      <p class="fact-card-value">13th worldwide</p>
-      <p class="fact-card-note">1st among American teams</p>
-    </article>
-    <article class="fact-card">
-      <p class="fact-card-label">Focus</p>
-      <p class="fact-card-value">100% electric prototype</p>
-      <p class="fact-card-note">Built by engineering students</p>
-    </article>
   </div>
-  </div>
-    
-  </div>
-  
 </section>
 
 <section class="section section-split" id="about" aria-labelledby="about-title">
   <div class="section-heading">
-    <p class="section-kicker">About MotoStudent</p>
-    <h2 id="about-title">Design. Build. Race.</h2>
+    <p class="section-kicker" data-i18n-key="home.about.kicker">About MotoStudent</p>
+    <h2 id="about-title" data-i18n-key="home.about.title">Design. Build. Race.</h2>
   </div>
   <div class="split-grid">
     <div class="split-text">
-      <p>
-        MotoStudent is an international engineering competition where university teams design and build a race motorcycle prototype, evaluated at MotorLand Aragón (Alcañiz, Spain). Categories include Petrol and Electric.
+      <p data-i18n-key="home.about.paragraph_1">
+        MotoStudent is an international engineering competition where university teams design and build a race motorcycle prototype, evaluated at MotorLand Aragon (Alcaniz, Spain). Categories include Petrol and Electric.
       </p>
-      <p>
-        EMUS is competing in the Electric category, bringing together students from the Université de Sherbrooke to engineer a fully electric race bike for MotoStudent 2027.
+      <p data-i18n-key="home.about.paragraph_2">
+        EMUS is competing in the Electric category, bringing together students from the Universite de Sherbrooke to engineer a fully electric race bike for MotoStudent 2027.
       </p>
     </div>
     <div class="split-card" aria-hidden="true">
-      <div class="split-card-header">Competition timeline</div>
+      <div class="split-card-header" data-i18n-key="home.about.timeline_header">Competition timeline</div>
       <ul class="timeline">
         <li>
           <span class="timeline-dot"></span>
           <div>
-            <p class="timeline-title">Design + validation</p>
-            <p class="timeline-note">Now · System architecture, validation, supplier alignment</p>
+            <p class="timeline-title" data-i18n-key="home.about.timeline_1_title">Design + validation</p>
+            <p class="timeline-note" data-i18n-key="home.about.timeline_1_note">Now - System architecture, validation, supplier alignment</p>
           </div>
         </li>
         <li>
           <span class="timeline-dot"></span>
           <div>
-            <p class="timeline-title">Build</p>
-            <p class="timeline-note">2026–2027 · Prototype manufacturing and testing</p>
+            <p class="timeline-title" data-i18n-key="home.about.timeline_2_title">Build</p>
+            <p class="timeline-note" data-i18n-key="home.about.timeline_2_note">2026-2027 - Prototype manufacturing and testing</p>
           </div>
         </li>
         <li>
           <span class="timeline-dot"></span>
           <div>
-            <p class="timeline-title">Final event</p>
-            <p class="timeline-note">Oct 2027 · MotorLand Aragón</p>
+            <p class="timeline-title" data-i18n-key="home.about.timeline_3_title">Final event</p>
+            <p class="timeline-note" data-i18n-key="home.about.timeline_3_note">Oct 2027 - MotorLand Aragon</p>
           </div>
         </li>
       </ul>
@@ -148,25 +165,25 @@
 
 <section class="section section-highlight" id="sponsors" aria-labelledby="sponsors-title">
   <div class="section-heading">
-    <p class="section-kicker">Sponsors</p>
-    <h2 id="sponsors-title">Support the build</h2>
+    <p class="section-kicker" data-i18n-key="home.sponsors.kicker">Sponsors</p>
+    <h2 id="sponsors-title" data-i18n-key="home.sponsors.title">Support the build</h2>
   </div>
   <div class="highlight-grid">
     <div>
-      <p>
+      <p data-i18n-key="home.sponsors.paragraph">
         Support EMUS: funding, manufacturing, materials, and technical mentorship. Strategic partners help accelerate testing, manufacturing, and race readiness.
       </p>
       <div class="highlight-actions">
-        <a class="button button-primary" href="/sponsors/">Sponsor the team</a>
-        <a class="button button-ghost" href="#contact">Email us</a>
+        <a class="button button-primary" href="/sponsors/" data-i18n-key="home.sponsors.primary_cta">Sponsor the team</a>
+        <a class="button button-ghost" href="#contact" data-i18n-key="home.sponsors.secondary_cta">Email us</a>
       </div>
     </div>
     <div class="highlight-card" aria-hidden="true">
-      <p class="card-label">What we can showcase</p>
+      <p class="card-label" data-i18n-key="home.sponsors.card_label">What we can showcase</p>
       <ul class="list-simple">
-        <li>Trackside visibility at MotorLand Aragón</li>
-        <li>Engineering collaboration with students</li>
-        <li>Technical talks and campus demos</li>
+        <li data-i18n-key="home.sponsors.item_1">Trackside visibility at MotorLand Aragon</li>
+        <li data-i18n-key="home.sponsors.item_2">Engineering collaboration with students</li>
+        <li data-i18n-key="home.sponsors.item_3">Technical talks and campus demos</li>
       </ul>
     </div>
   </div>
@@ -174,31 +191,31 @@
 
 <section class="section" id="contact" aria-labelledby="contact-title">
   <div class="section-heading">
-    <p class="section-kicker">Contact</p>
-    <h2 id="contact-title">Let's talk</h2>
+    <p class="section-kicker" data-i18n-key="home.contact.kicker">Contact</p>
+    <h2 id="contact-title" data-i18n-key="home.contact.title">Let's talk</h2>
   </div>
   <div class="contact-grid">
     <div>
-      <p>Want to partner, mentor, or learn more about the project? Reach out and we'll connect you with the right team lead.</p>
+      <p data-i18n-key="home.contact.paragraph">Want to partner, mentor, or learn more about the project? Reach out and we'll connect you with the right team lead.</p>
       <ul class="contact-list">
         <li>
-          <span class="contact-label">Email</span>
+          <span class="contact-label" data-i18n-key="home.contact.email">Email</span>
           <span class="contact-value"><a href="mailto:EMUS@usherbrooke.ca">EMUS@usherbrooke.ca</a></span>
         </li>
         <li>
-          <span class="contact-label">Facebook</span>
+          <span class="contact-label" data-i18n-key="home.contact.facebook">Facebook</span>
           <span class="contact-value"><a href="https://www.facebook.com/Projetemus" target="_blank" rel="noreferrer">https://www.facebook.com/Projetemus</a></span>
         </li>
         <li>
-          <span class="contact-label">Instagram</span>
+          <span class="contact-label" data-i18n-key="home.contact.instagram">Instagram</span>
           <span class="contact-value"><a href="https://www.instagram.com/emus_udes/" target="_blank" rel="noreferrer">https://www.instagram.com/emus_udes/</a></span>
         </li>
       </ul>
     </div>
     <div class="contact-card" aria-hidden="true">
-      <p class="card-label">Based in</p>
-      <p class="card-value">Sherbrooke, QC</p>
-      <p class="card-note">Université de Sherbrooke · Faculty of Engineering</p>
+      <p class="card-label" data-i18n-key="home.contact.based_in_label">Based in</p>
+      <p class="card-value" data-i18n-key="home.contact.based_in_value">Sherbrooke, QC</p>
+      <p class="card-note" data-i18n-key="home.contact.based_in_note">Universite de Sherbrooke - Faculty of Engineering</p>
     </div>
   </div>
 </section>
@@ -209,18 +226,19 @@
     <img src="/assets/logo/Logo_EMUS_V-BL_titre.png" alt="EMUS logo" class="logo logo-light">
   </div>
   <div class="footer-links">
-    <a href="/team/">Team</a>
-    <a href="/project/">Project</a>
-    <a href="/sponsors/">Sponsors</a>
-    <a href="/gallery/">Gallery</a>
-    <a href="/contact/">Contact</a>
+    <a href="/team/" data-i18n-key="site.footer.team">Team</a>
+    <a href="/project/" data-i18n-key="site.footer.project">Project</a>
+    <a href="/sponsors/" data-i18n-key="site.footer.sponsors">Sponsors</a>
+    <a href="/gallery/" data-i18n-key="site.footer.gallery">Gallery</a>
+    <a href="/contact/" data-i18n-key="site.footer.contact">Contact</a>
   </div>
   <div class="footer-meta">
-    <p>EMUS · Electric Motorcycle of Université de Sherbrooke</p>
-    <p class="footer-note">Building for MotoStudent 2027 · MotorLand Aragón, Spain</p>
+    <p data-i18n-key="site.footer.description">EMUS - Electric Motorcycle of Universite de Sherbrooke</p>
+    <p class="footer-note" data-i18n-key="site.footer.note">Building for MotoStudent 2027 - MotorLand Aragon, Spain</p>
   </div>
 </footer>
 
+  <script id="i18n-dictionary" type="application/json">{"en":{"site":{"language":{"switch_to_en":"Switch to English","switch_to_fr":"Switch to French"},"nav":{"toggle":"Toggle navigation","aria":"Primary","home":"Home","team":"Team","project":"Project","sponsors":"Sponsors","gallery":"Gallery","contact":"Contact"},"footer":{"team":"Team","project":"Project","sponsors":"Sponsors","gallery":"Gallery","contact":"Contact","description":"EMUS - Electric Motorcycle of Universite de Sherbrooke","note":"Building for MotoStudent 2027 - MotorLand Aragon, Spain"}},"home":{"hero":{"eyebrow":"MotoStudent Electric","title":"From Sherbrooke to MotorLand Aragon","lead":"EMUS (Electric Motorcycle of Universite de Sherbrooke) is a student engineering team developing a 100% electric race motorcycle for the MotoStudent competition in Spain.","primary_cta":"What is MotoStudent?","secondary_cta":"Get in touch","next_race_label":"Next race","next_race_value":"MotorLand Aragon - Oct 2027","image_alt":"Decorative hero image"},"facts":{"kicker":"Quick facts","title":"Race-ready in 2027","image_alt":"Decorative project render","card_1_label":"Final event","card_1_value":"Oct 2027","card_1_note":"MotorLand Aragon, Alcaniz (Spain)","card_2_label":"2023 performance","card_2_value":"13th worldwide","card_2_note":"1st among American teams","card_3_label":"Focus","card_3_value":"100% electric prototype","card_3_note":"Built by engineering students"},"about":{"kicker":"About MotoStudent","title":"Design. Build. Race.","paragraph_1":"MotoStudent is an international engineering competition where university teams design and build a race motorcycle prototype, evaluated at MotorLand Aragon (Alcaniz, Spain). Categories include Petrol and Electric.","paragraph_2":"EMUS is competing in the Electric category, bringing together students from the Universite de Sherbrooke to engineer a fully electric race bike for MotoStudent 2027.","timeline_header":"Competition timeline","timeline_1_title":"Design + validation","timeline_1_note":"Now - System architecture, validation, supplier alignment","timeline_2_title":"Build","timeline_2_note":"2026-2027 - Prototype manufacturing and testing","timeline_3_title":"Final event","timeline_3_note":"Oct 2027 - MotorLand Aragon"},"sponsors":{"kicker":"Sponsors","title":"Support the build","paragraph":"Support EMUS: funding, manufacturing, materials, and technical mentorship. Strategic partners help accelerate testing, manufacturing, and race readiness.","primary_cta":"Sponsor the team","secondary_cta":"Email us","card_label":"What we can showcase","item_1":"Trackside visibility at MotorLand Aragon","item_2":"Engineering collaboration with students","item_3":"Technical talks and campus demos"},"contact":{"kicker":"Contact","title":"Let's talk","paragraph":"Want to partner, mentor, or learn more about the project? Reach out and we'll connect you with the right team lead.","email":"Email","facebook":"Facebook","instagram":"Instagram","based_in_label":"Based in","based_in_value":"Sherbrooke, QC","based_in_note":"Universite de Sherbrooke - Faculty of Engineering"}},"team":{"hero":{"tag":"Team","title":"Engineering students building electric performance","lead":"EMUS is an engineering student team from Universite de Sherbrooke building a fully electric race bike for MotoStudent 2027.","image_alt":"EMUS team with the electric prototype on track"},"overview":{"kicker":"Who we are","title":"Students building a competitive electric prototype","paragraph_1":"Multidisciplinary students in mechanical, electrical, controls, software, and business collaborate to design, build, and test a fully electric race bike for MotoStudent 2027.","paragraph_2":"We mix classroom theory with track-ready engineering: from chassis and battery design to testing and race operations."},"photo":{"title":"Team photo","image_alt":"EMUS team with the electric prototype on track"},"structure":{"kicker":"Team structure","title":"Leads and units","roles_aria":"Roles"}},"project":{"hero":{"tag":"Project","title":"Building a 100% electric race prototype","lead":"The project delivers a 100% electric prototype capable of competing at MotorLand Aragon in October 2027.","stat_1_value":"Electric category","stat_1_label":"MotoStudent","stat_2_value":"MotorLand Aragon","stat_2_label":"Alcaniz, Spain","image_alt":"Decorative hero image"},"objectives":{"kicker":"Objectives","title":"Race-ready for October 2027","paragraph_1":"We are engineering a competitive electric motorcycle that meets MotoStudent technical requirements and performs reliably at MotorLand Aragon.","paragraph_2":"Timeline highlights: design validation now; build and testing through 2027; final event Oct 2027.","image_alt":"Decorative project render"},"focus":{"kicker":"Technical focus areas","title":"Systems in development","image_alt":"EMUS MotoStudent electric prototype","card_1_badge":"Powertrain","card_1_title":"Motor and inverter","card_1_body":"Our goal this year is to improve motor and inverter design to capture the final performance gains. This includes tuning inverter control algorithms to push motor efficiency and power output close to thermal limits.","card_2_badge":"Energy","card_2_title":"Battery pack","card_2_body":"Last year we designed a battery pack using high-performance cell technology. For 2027 we aim to update to next-generation cells and improve tuning of our custom active balancing BMS.","card_3_badge":"Chassis","card_3_title":"Frame and dynamics","card_3_body":"For 2027, our focus is redesigning chassis architecture to optimize stiffness and reduce weight. In parallel, we are developing structural carbon fiber components to maximize reliability under racing loads.","card_4_badge":"Controls","card_4_title":"Vehicle control","card_4_body":"For 2027 we are designing our own ECU to control all vehicle systems and enable precise performance tuning.","card_5_badge":"Validation","card_5_title":"Testing and telemetry","card_5_body":"The 2025 bike introduced new sensors and telemetry systems for data-driven development. For 2027 we plan to add sensors and integrate their data deeper into vehicle control.","card_6_badge":"Cooling","card_6_title":"Cooling system design","card_6_body":"The cooling system is receiving a major upgrade, including exploration of new methods to improve thermal performance.","card_7_badge":"Aerodynamics","card_7_title":"Fairing design and optimization","card_7_body":"The 2027 fairings are being redesigned from the ground up and optimized using CFD plus wind tunnel testing."},"timeline":{"kicker":"Roadmap","title":"Key milestones","item_1_title":"Design and validation","item_1_note":"In progress. System architecture, analysis, supplier alignment","item_2_title":"Build and integration","item_2_note":"2026-2027: Manufacturing, assembly, subsystem testing","item_3_title":"Track testing","item_3_note":"2027: Performance tuning and reliability","item_4_title":"Final event","item_4_note":"Oct 2027: MotorLand Aragon","image_alt":"Decorative track map"}},"sponsors":{"hero":{"tag":"Sponsors","title":"Support the EMUS electric build","lead":"Support EMUS: funding, manufacturing, materials, and technical mentorship.","stat_1_value":"Track visibility","stat_1_label":"MotorLand Aragon - Oct 2027","stat_2_value":"Engineering impact","stat_2_label":"Electric category - MotoStudent"},"ways":{"kicker":"Partnerships","title":"Ways to support","card_1_badge":"Funding","card_1_title":"Project budget","card_1_body":"Accelerate manufacturing, testing, and race logistics.","card_2_badge":"Manufacturing","card_2_title":"Fabrication support","card_2_body":"Machine time, composites, welding, and specialized processes.","card_3_badge":"Materials","card_3_title":"Components and supplies","card_3_body":"Metals, composites, fasteners, wiring, and testing equipment.","card_4_badge":"Technical","card_4_title":"Mentorship","card_4_body":"Guidance on design, validation, reliability, and race preparation.","card_5_badge":"Services","card_5_title":"Analysis and tools","card_5_body":"Simulation licenses, track access, and test instrumentation.","card_6_badge":"In-kind","card_6_title":"Equipment and space","card_6_body":"Lab access, benches, or storage to keep the build moving."},"visibility":{"kicker":"Visibility","title":"Showcase opportunities","body":"Logos and activations will be placed on the bike, team apparel, pit setup, and communications. Placeholder assets are shown until sponsor logos are confirmed.","image_alt":"Decorative MotoStudent image"},"cta":{"kicker":"Get in touch","title":"Ready to partner?","body":"We'll tailor a package around visibility, recruitment, and technical collaboration.","next_steps_title":"Next steps","next_steps_1":"Share your focus: funding, materials, or mentorship","next_steps_2":"We respond with needs and timelines","next_steps_3":"Align on visibility and delivery","contact_title":"Contact","contact_body":"Email and socials in Contact page.","primary_cta":"Contact EMUS","secondary_cta":"See the project"}},"gallery":{"hero":{"tag":"Gallery","title":"Race prep in pictures","lead":"Placeholder images only for now. TODO replace with optimized team, bike, and track photos (compressed and responsive)."},"coming_soon":{"kicker":"Coming soon","title":"Moments from design to track"}},"contact":{"hero":{"tag":"Contact","title":"Let's connect","lead":"Want to partner, mentor, or learn more about the project? Reach out and we'll connect you with the right team lead."},"details":{"kicker":"Details","title":"Get in touch with EMUS","email_prefix":"Email:","social_prefix":"Social:","facebook":"Facebook","instagram":"Instagram","email_title":"Email","social_title":"Social"},"location":{"kicker":"Location","title":"Universite de Sherbrooke","body":"Based in Sherbrooke, QC - Faculty of Engineering.","map_placeholder":"Placeholder map"}}},"fr":{"site":{"language":{"switch_to_en":"Passer en anglais","switch_to_fr":"Passer en francais"},"nav":{"toggle":"Afficher la navigation","aria":"Navigation principale","home":"Accueil","team":"Equipe","project":"Projet","sponsors":"Partenaires","gallery":"Galerie","contact":"Contact"},"footer":{"team":"Equipe","project":"Projet","sponsors":"Partenaires","gallery":"Galerie","contact":"Contact","description":"EMUS - Moto electrique de l'Universite de Sherbrooke","note":"En route vers MotoStudent 2027 - MotorLand Aragon, Espagne"}},"home":{"hero":{"eyebrow":"MotoStudent Electrique","title":"De Sherbrooke a MotorLand Aragon","lead":"EMUS (Moto Electrique de l'Universite de Sherbrooke) est une equipe etudiante en genie qui developpe une moto de course 100 % electrique pour la competition MotoStudent en Espagne.","primary_cta":"Qu'est-ce que MotoStudent ?","secondary_cta":"Nous contacter","next_race_label":"Prochaine course","next_race_value":"MotorLand Aragon - Oct 2027","image_alt":"Image hero decorative"},"facts":{"kicker":"Faits rapides","title":"Pret pour la course en 2027","image_alt":"Rendu decoratif du projet","card_1_label":"Evenement final","card_1_value":"Oct 2027","card_1_note":"MotorLand Aragon, Alcaniz (Espagne)","card_2_label":"Performance 2023","card_2_value":"13e au monde","card_2_note":"1re equipe des Ameriques","card_3_label":"Objectif","card_3_value":"Prototype 100 % electrique","card_3_note":"Construit par des etudiants en genie"},"about":{"kicker":"A propos de MotoStudent","title":"Concevoir. Construire. Courir.","paragraph_1":"MotoStudent est une competition internationale d'ingenierie ou des equipes universitaires concoivent et construisent un prototype de moto de course, evalue a MotorLand Aragon (Alcaniz, Espagne). Les categories incluent Essence et Electrique.","paragraph_2":"EMUS participe a la categorie Electrique et rassemble des etudiants de l'Universite de Sherbrooke pour concevoir une moto de course entierement electrique pour MotoStudent 2027.","timeline_header":"Calendrier de la competition","timeline_1_title":"Conception et validation","timeline_1_note":"En cours - Architecture systeme, validation, alignement fournisseurs","timeline_2_title":"Construction","timeline_2_note":"2026-2027 - Fabrication et essais du prototype","timeline_3_title":"Evenement final","timeline_3_note":"Oct 2027 - MotorLand Aragon"},"sponsors":{"kicker":"Partenaires","title":"Soutenir la construction","paragraph":"Soutenez EMUS : financement, fabrication, materiaux et mentorat technique. Les partenaires strategiques accelerent les essais, la fabrication et la preparation course.","primary_cta":"Devenir partenaire","secondary_cta":"Envoyez-nous un courriel","card_label":"Ce que nous pouvons offrir","item_1":"Visibilite en piste a MotorLand Aragon","item_2":"Collaboration technique avec les etudiants","item_3":"Conferences techniques et demos campus"},"contact":{"kicker":"Contact","title":"Parlons-en","paragraph":"Vous voulez devenir partenaire, offrir du mentorat ou en apprendre plus sur le projet ? Ecrivez-nous et nous vous mettrons en lien avec le bon responsable.","email":"Courriel","facebook":"Facebook","instagram":"Instagram","based_in_label":"Base a","based_in_value":"Sherbrooke, QC","based_in_note":"Universite de Sherbrooke - Faculte de genie"}},"team":{"hero":{"tag":"Equipe","title":"Des etudiants en genie qui construisent la performance electrique","lead":"EMUS est une equipe etudiante en genie de l'Universite de Sherbrooke qui construit une moto de course entierement electrique pour MotoStudent 2027.","image_alt":"Equipe EMUS avec le prototype electrique sur piste"},"overview":{"kicker":"Qui nous sommes","title":"Des etudiants qui construisent un prototype electrique competitif","paragraph_1":"Des etudiants multidisciplinaires en mecanique, electrique, controle, logiciel et affaires collaborent pour concevoir, construire et tester une moto de course entierement electrique pour MotoStudent 2027.","paragraph_2":"Nous combinons theorie academique et ingenierie de piste : conception du chassis et de la batterie, essais et operations course."},"photo":{"title":"Photo de l'equipe","image_alt":"Equipe EMUS avec le prototype electrique sur piste"},"structure":{"kicker":"Structure de l'equipe","title":"Responsables et unites","roles_aria":"Roles"}},"project":{"hero":{"tag":"Projet","title":"Construire un prototype de course 100 % electrique","lead":"Le projet livre un prototype 100 % electrique capable de participer a MotorLand Aragon en octobre 2027.","stat_1_value":"Categorie electrique","stat_1_label":"MotoStudent","stat_2_value":"MotorLand Aragon","stat_2_label":"Alcaniz, Espagne","image_alt":"Image hero decorative"},"objectives":{"kicker":"Objectifs","title":"Pret pour octobre 2027","paragraph_1":"Nous developpons une moto electrique competitive qui respecte les exigences techniques de MotoStudent et performe de facon fiable a MotorLand Aragon.","paragraph_2":"Points du calendrier : validation de conception en cours, construction et essais jusqu'en 2027, evenement final en octobre 2027.","image_alt":"Rendu decoratif du projet"},"focus":{"kicker":"Axes techniques","title":"Systemes en developpement","image_alt":"Prototype electrique MotoStudent d'EMUS","card_1_badge":"Groupe motopropulseur","card_1_title":"Moteur et onduleur","card_1_body":"Notre objectif cette annee est d'ameliorer la conception du moteur et de l'onduleur pour aller chercher les derniers gains de performance. Cela inclut l'optimisation des algorithmes de commande de l'onduleur pour approcher les limites thermiques.","card_2_badge":"Energie","card_2_title":"Bloc batterie","card_2_body":"L'an dernier, nous avons concu un bloc batterie avec une technologie de cellules haute performance. Pour 2027, nous visons des cellules de nouvelle generation et un meilleur reglage de notre BMS a equilibrage actif.","card_3_badge":"Chassis","card_3_title":"Cadre et dynamique","card_3_body":"Pour 2027, nous redesignons l'architecture du chassis pour optimiser la rigidite et reduire le poids. En parallele, nous developpons des composants structuraux en fibre de carbone pour maximiser la fiabilite en condition de course.","card_4_badge":"Controle","card_4_title":"Commande vehicule","card_4_body":"Pour 2027, nous concevons notre propre ECU pour controler tous les systemes du vehicule et permettre un reglage precis de la performance.","card_5_badge":"Validation","card_5_title":"Essais et telemetrie","card_5_body":"La moto 2025 a introduit de nouveaux capteurs et systemes de telemetrie pour un developpement pilote par les donnees. Pour 2027, nous prevoyons ajouter des capteurs et integrer leurs donnees plus profondement dans la commande vehicule.","card_6_badge":"Refroidissement","card_6_title":"Conception du systeme de refroidissement","card_6_body":"Le systeme de refroidissement recoit une mise a niveau majeure, incluant l'exploration de nouvelles approches pour ameliorer les performances thermiques.","card_7_badge":"Aerodynamique","card_7_title":"Conception et optimisation des carenages","card_7_body":"Les carenages 2027 sont entierement redesignes puis optimises avec CFD et essais en soufflerie."},"timeline":{"kicker":"Feuille de route","title":"Jalons cles","item_1_title":"Conception et validation","item_1_note":"En cours. Architecture systeme, analyses, alignement fournisseurs","item_2_title":"Construction et integration","item_2_note":"2026-2027 : Fabrication, assemblage, essais des sous-systemes","item_3_title":"Essais piste","item_3_note":"2027 : Reglage performance et fiabilite","item_4_title":"Evenement final","item_4_note":"Oct 2027 : MotorLand Aragon","image_alt":"Carte de piste decorative"}},"sponsors":{"hero":{"tag":"Partenaires","title":"Soutenez le projet electrique EMUS","lead":"Soutenez EMUS : financement, fabrication, materiaux et mentorat technique.","stat_1_value":"Visibilite piste","stat_1_label":"MotorLand Aragon - Oct 2027","stat_2_value":"Impact ingenierie","stat_2_label":"Categorie electrique - MotoStudent"},"ways":{"kicker":"Partenariats","title":"Facons de contribuer","card_1_badge":"Financement","card_1_title":"Budget projet","card_1_body":"Accelerez la fabrication, les essais et la logistique de course.","card_2_badge":"Fabrication","card_2_title":"Soutien de fabrication","card_2_body":"Temps machine, composites, soudage et procedes specialises.","card_3_badge":"Materiaux","card_3_title":"Composants et fournitures","card_3_body":"Metaux, composites, fixations, cablage et equipements d'essai.","card_4_badge":"Technique","card_4_title":"Mentorat","card_4_body":"Accompagnement en conception, validation, fiabilite et preparation course.","card_5_badge":"Services","card_5_title":"Analyses et outils","card_5_body":"Licences de simulation, acces piste et instrumentation d'essai.","card_6_badge":"Nature","card_6_title":"Equipement et espace","card_6_body":"Acces labo, etablis ou entreposage pour faire avancer la construction."},"visibility":{"kicker":"Visibilite","title":"Opportunites de mise en valeur","body":"Les logos et activations seront places sur la moto, les vetements de l'equipe, l'installation de puits et les communications. Des elements temporaires sont affiches jusqu'a confirmation des logos partenaires.","image_alt":"Image decorative MotoStudent"},"cta":{"kicker":"Nous joindre","title":"Pret a devenir partenaire ?","body":"Nous pouvons adapter une proposition autour de la visibilite, du recrutement et de la collaboration technique.","next_steps_title":"Prochaines etapes","next_steps_1":"Partagez votre focus : financement, materiaux ou mentorat","next_steps_2":"Nous revenons avec les besoins et echeanciers","next_steps_3":"Alignement sur la visibilite et la livraison","contact_title":"Contact","contact_body":"Courriel et reseaux sociaux dans la page Contact.","primary_cta":"Contacter EMUS","secondary_cta":"Voir le projet"}},"gallery":{"hero":{"tag":"Galerie","title":"La preparation en images","lead":"Images temporaires pour le moment. TODO remplacer par des photos equipe, moto et piste optimisees (compressees et responsives)."},"coming_soon":{"kicker":"Bientot","title":"Moments de la conception a la piste"}},"contact":{"hero":{"tag":"Contact","title":"Restons en contact","lead":"Vous voulez devenir partenaire, offrir du mentorat ou en apprendre plus sur le projet ? Ecrivez-nous et nous vous mettrons en lien avec le bon responsable."},"details":{"kicker":"Details","title":"Joindre EMUS","email_prefix":"Courriel :","social_prefix":"Reseaux :","facebook":"Facebook","instagram":"Instagram","email_title":"Courriel","social_title":"Reseaux"},"location":{"kicker":"Localisation","title":"Universite de Sherbrooke","body":"Base a Sherbrooke, QC - Faculte de genie.","map_placeholder":"Carte a venir"}}}}</script>
   <script src="/scripts/site.js"></script>
 </body>
 </html>

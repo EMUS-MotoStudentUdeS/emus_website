@@ -2,165 +2,221 @@
   {
     "name": "Thomas Giroux",
     "role": ["Drive Systems"],
+    "role_fr": ["Systemes de propulsion"],
     "focus": "Drive systems integration and validation.",
+    "focus_fr": "Integration et validation des systemes de propulsion.",
     "group": "Electrical & Control Systems",
+    "group_fr": "Systemes electriques et controle",
     "image": "/assets/team/ThomGiroux.jpg",
     "contact": "thomas.giroux3@usherbrooke.ca"
   },
-    {
+  {
     "name": "Maxime Boucher",
     "role": ["Thermal Systems"],
+    "role_fr": ["Systemes thermiques"],
     "focus": "Thermal management and electronic integration.",
+    "focus_fr": "Gestion thermique et integration electronique.",
     "group": "Electrical & Control Systems",
+    "group_fr": "Systemes electriques et controle",
     "image": "/assets/team/MaxBoucher.jpg",
     "contact": "maxime.boucher5@usherbrooke.ca"
   },
   {
     "name": "Alexandre Blais",
     "role": ["ECU & Control Systems"],
+    "role_fr": ["ECU et systemes de controle"],
     "focus": "ECU development, control logic, and system integration.",
+    "focus_fr": "Developpement ECU, logique de controle et integration systeme.",
     "group": "Electrical & Control Systems",
+    "group_fr": "Systemes electriques et controle",
     "image": "/assets/team/AlexBlais.jpg",
     "contact": "alexandre.blais6@usherbrooke.ca"
   },
-    {
+  {
     "name": "Renaud Gagnon",
     "role": ["Mechatronics designer", "Photographer"],
+    "role_fr": ["Concepteur en mecatronique", "Photographe"],
     "focus": "Rider controls and drive system integration.",
+    "focus_fr": "Commandes pilote et integration du systeme de propulsion.",
     "group": "Electrical & Control Systems",
+    "group_fr": "Systemes electriques et controle",
     "image": "/assets/team/placeholder-avatar-emus.png",
     "contact": "renaud.gagnon@usherbrooke.ca"
   },
   {
     "name": "Zachary Rodrigue",
     "role": ["Data Acquisition & Active Aero"],
+    "role_fr": ["Acquisition de donnees et aero active"],
     "focus": "Test data logging and support for active aerodynamic systems.",
+    "focus_fr": "Enregistrement des donnees d'essai et soutien aux systemes aerodynamiques actifs.",
     "group": "Electrical & Control Systems",
+    "group_fr": "Systemes electriques et controle",
     "image": "/assets/team/ZacharyRodrigue.jpg",
     "contact": ""
   },
   {
-    "name": "Julien Laflèche",
+    "name": "Julien Lafleche",
     "role": ["ECU & Battery Systems"],
+    "role_fr": ["ECU et systemes batterie"],
     "focus": "Control software, battery integration, and validation.",
+    "focus_fr": "Logiciel de controle, integration batterie et validation.",
     "group": "Electrical & Control Systems",
+    "group_fr": "Systemes electriques et controle",
     "image": "/assets/team/placeholder-avatar-emus.png",
     "contact": "julien.lafleche@usherbrooke.ca"
   },
   {
     "name": "William Roy",
-    "role": ["Mentor", "Ryder", "Mechanical Engineer"],
+    "role": ["Mentor", "Rider", "Mechanical Engineer"],
+    "role_fr": ["Mentor", "Pilote", "Ingenieur mecanique"],
     "focus": "Exploratory concept research and marketing strategy.",
+    "focus_fr": "Recherche exploratoire de concepts et strategie marketing.",
     "group": "Mechanical & Powertrain",
+    "group_fr": "Mecanique et groupe motopropulseur",
     "image": "/assets/team/WillRoy.jpg",
     "contact": ""
   },
-  { 
+  {
     "name": "Loic Langlois",
     "role": ["Structural Engineer"],
+    "role_fr": ["Ingenieur structural"],
     "focus": "Frame design.",
+    "focus_fr": "Conception du cadre.",
     "group": "Mechanical & Powertrain",
+    "group_fr": "Mecanique et groupe motopropulseur",
     "image": "/assets/team/LoicLanglois.jpg",
     "contact": "loic.langlois2@usherbrooke.ca"
   },
   {
-    "name": "Émile Raymond",
+    "name": "Emile Raymond",
     "role": ["Powertrain & Dyno Engineer"],
+    "role_fr": ["Ingenieur groupe motopropulseur et dyno"],
     "focus": "Powertrain development, dyno systems, and transmission support.",
+    "focus_fr": "Developpement du groupe motopropulseur, systemes dyno et soutien transmission.",
     "group": "Mechanical & Powertrain",
+    "group_fr": "Mecanique et groupe motopropulseur",
     "image": "/assets/team/EmileRaymond.jpg",
     "contact": ""
   },
   {
-    "name": "Félix Jacques",
+    "name": "Felix Jacques",
     "role": ["Dyno Systems"],
+    "role_fr": ["Systemes dyno"],
     "focus": "Development and operation of dynamometer systems.",
+    "focus_fr": "Developpement et operation des systemes dynamometre.",
     "group": "Electrical & Control Systems",
+    "group_fr": "Systemes electriques et controle",
     "image": "/assets/team/FelixJacques.jpg",
     "contact": ""
   },
-
   {
-    "name": "Jérémy Marcoux",
+    "name": "Jeremy Marcoux",
     "role": ["Drive & Rider Interface"],
+    "role_fr": ["Propulsion et interface pilote"],
     "focus": "Development of rider interfaces and ergonomics.",
+    "focus_fr": "Developpement des interfaces pilote et de l'ergonomie.",
     "group": "Electrical & Control Systems",
+    "group_fr": "Systemes electriques et controle",
     "image": "/assets/team/JeremyMarcoux.jpg",
     "contact": ""
   },
-  
   {
-    "name": "Alexandre Giguère",
+    "name": "Alexandre Giguere",
     "role": ["Cooling & Aerodynamics"],
+    "role_fr": ["Refroidissement et aerodynamique"],
     "focus": "Mechanical cooling systems and aerodynamic integration.",
+    "focus_fr": "Systemes mecaniques de refroidissement et integration aerodynamique.",
     "group": "Aerodynamics & Vehicle Performance",
+    "group_fr": "Aerodynamique et performance vehicule",
     "image": "/assets/team/AlexGiguere.jpg",
     "contact": ""
   },
   {
-    "name": "Philippe Gariépy",
+    "name": "Philippe Gariepy",
     "role": ["Structural Design"],
+    "role_fr": ["Conception structurelle"],
     "focus": "Frame and structural component design.",
+    "focus_fr": "Conception du cadre et des composants structuraux.",
     "group": "Mechanical & Powertrain",
+    "group_fr": "Mecanique et groupe motopropulseur",
     "image": "/assets/team/PhilippeGariepy.jpg",
     "contact": "philippe.gariepy2@usherbrooke.ca"
   },
   {
     "name": "Nicolas Bernard",
     "role": ["Structure & Aerodynamics"],
+    "role_fr": ["Structure et aerodynamique"],
     "focus": "Structural design and aerodynamic hardware integration.",
+    "focus_fr": "Conception structurelle et integration de composantes aerodynamiques.",
     "group": "Mechanical & Powertrain",
+    "group_fr": "Mecanique et groupe motopropulseur",
     "image": "/assets/team/placeholder-avatar-emus.png",
     "contact": ""
   },
   {
     "name": "Manuel Gaudreault",
     "role": ["Aerodynamics"],
+    "role_fr": ["Aerodynamique"],
     "focus": "Aerodynamics validation.",
+    "focus_fr": "Validation aerodynamique.",
     "group": "Aerodynamics & Vehicle Performance",
+    "group_fr": "Aerodynamique et performance vehicule",
     "image": "/assets/team/ManuelGaudreault.jpg",
     "contact": ""
   },
   {
-    "name": "Charles-Éric Blais",
+    "name": "Charles-Eric Blais",
     "role": ["Aerodynamics"],
+    "role_fr": ["Aerodynamique"],
     "focus": "Aerodynamic analysis, design, and validation.",
+    "focus_fr": "Analyse, conception et validation aerodynamique.",
     "group": "Aerodynamics & Vehicle Performance",
+    "group_fr": "Aerodynamique et performance vehicule",
     "image": "/assets/team/placeholder-avatar-emus.png",
     "contact": ""
   },
   {
     "name": "Guillaume Dion",
     "role": ["Structural Designer"],
+    "role_fr": ["Concepteur structural"],
     "focus": "",
+    "focus_fr": "",
     "group": "Mechanical & Powertrain",
+    "group_fr": "Mecanique et groupe motopropulseur",
     "image": "/assets/team/placeholder-avatar-emus.png",
     "contact": "guillaume.dion3@usherbrooke.ca"
   },
   {
     "name": "Aimeric Bouillon",
     "role": ["Dyno Systems"],
+    "role_fr": ["Systemes dyno"],
     "focus": "",
+    "focus_fr": "",
     "group": "Mechanical & Powertrain",
+    "group_fr": "Mecanique et groupe motopropulseur",
     "image": "/assets/team/placeholder-avatar-emus.png",
     "contact": "aimeric.bouillon@usherbrooke.ca"
   },
   {
     "name": "Alexandre Roy",
     "role": ["Data logging integrator"],
+    "role_fr": ["Integrateur de journalisation de donnees"],
     "focus": "",
+    "focus_fr": "",
     "group": "Electrical & Control Systems",
+    "group_fr": "Systemes electriques et controle",
     "image": "/assets/team/placeholder-avatar-emus.png",
     "contact": "alexandre.roy14@usherbrooke.ca"
-  },  
+  },
   {
     "name": "Aymrik Rodrigue",
     "role": ["Marketing & Communications"],
+    "role_fr": ["Marketing et communications"],
     "focus": "Communications, outreach, and sponsor relations.",
+    "focus_fr": "Communications, rayonnement et relations partenaires.",
     "group": "Race Operations & Outreach",
+    "group_fr": "Operations course et rayonnement",
     "image": "/assets/team/placeholder-avatar-emus.png",
     "contact": ""
   }
 ]
-
-

@@ -3,49 +3,68 @@ layout: default
 title: Team
 permalink: /team/
 styles:
-- /styles/home.css
+  - /styles/home.css
 ---
 
-{% assign contact = site.data.contact %}
 {% assign team = site.data.team %}
+
 <section class="page-hero">
   <div class="hero__grid">
-  <div class="hero__content">
-  <div class="tag">Team</div>
-  <h1>Engineering students building electric performance</h1>
-  <p class="lead">EMUS is an engineering student team from Université de Sherbrooke building a fully electric race bike for MotoStudent 2027.</p>
-  </div>
-  <div class="hero__visual" aria-hidden="true">
-    <div class="hero__glow"></div>
-    <div class="placeholder-media">
-      <img src="{{ '/assets/hero/Team2.webp' | relative_url }}" alt="EMUS team with the electric prototype on track">
+    <div class="hero__content">
+      <div class="tag" data-i18n-key="team.hero.tag">Team</div>
+      <h1 data-i18n-key="team.hero.title">Engineering students building electric performance</h1>
+      <p class="lead" data-i18n-key="team.hero.lead">EMUS is an engineering student team from Universite de Sherbrooke building a fully electric race bike for MotoStudent 2027.</p>
+    </div>
+    <div class="hero__visual" aria-hidden="true">
+      <div class="hero__glow"></div>
+      <div class="placeholder-media">
+        <img
+          src="{{ '/assets/hero/Team2.webp' | relative_url }}"
+          alt="EMUS team with the electric prototype on track"
+          data-i18n-key="team.hero.image_alt"
+          data-i18n-attr="alt"
+          data-i18n-attr-only="true">
+      </div>
     </div>
   </div>
 </section>
 
 <section class="section section-tight" id="overview" aria-labelledby="team-overview-title">
   <div class="section-heading">
-    <p class="section-kicker">Who we are</p>
-    <h2 id="team-overview-title">Students building a competitive electric prototype</h2>
+    <p class="section-kicker" data-i18n-key="team.overview.kicker">Who we are</p>
+    <h2 id="team-overview-title" data-i18n-key="team.overview.title">Students building a competitive electric prototype</h2>
   </div>
-  <p>Multidisciplinary students in mechanical, electrical, controls, software, and business collaborate to design, build, and test a fully electric race bike for MotoStudent 2027.</p>
-  <p>We mix classroom theory with track-ready engineering: from chassis and battery design to testing and race operations.</p>
+  <p data-i18n-key="team.overview.paragraph_1">Multidisciplinary students in mechanical, electrical, controls, software, and business collaborate to design, build, and test a fully electric race bike for MotoStudent 2027.</p>
+  <p data-i18n-key="team.overview.paragraph_2">We mix classroom theory with track-ready engineering: from chassis and battery design to testing and race operations.</p>
 </section>
 
 <section class="section section-media-wide" aria-labelledby="team-photo-title">
-  <h2 id="team-photo-title" class="sr-only">Team photo</h2>
-  <img src="{{ '/assets/hero/team_whide.jpg' | relative_url }}" alt="EMUS team with the electric prototype on track">
+  <h2
+    id="team-photo-title"
+    class="sr-only"
+    data-i18n-key="team.photo.title">Team photo</h2>
+  <img
+    src="{{ '/assets/hero/team_whide.jpg' | relative_url }}"
+    alt="EMUS team with the electric prototype on track"
+    data-i18n-key="team.photo.image_alt"
+    data-i18n-attr="alt"
+    data-i18n-attr-only="true">
 </section>
 
 <section class="section section-tight" id="structure" aria-labelledby="team-structure-title">
   <div class="section-heading">
-    <p class="section-kicker">Team structure</p>
-    <h2 id="team-structure-title">Leads and units</h2>
+    <p class="section-kicker" data-i18n-key="team.structure.kicker">Team structure</p>
+    <h2 id="team-structure-title" data-i18n-key="team.structure.title">Leads and units</h2>
   </div>
   {% assign grouped = team | group_by: "group" %}
   {% for subgroup in grouped %}
+  {% assign first_member = subgroup.items | first %}
   <div class="subteam-block">
-    <h3 class="subteam-title">{{ subgroup.name }}</h3>
+    <h3
+      class="subteam-title"
+      data-i18n
+      data-i18n-en="{{ subgroup.name | escape }}"
+      data-i18n-fr="{{ first_member.group_fr | default: subgroup.name | escape }}">{{ subgroup.name }}</h3>
     <div class="card-grid wide profile-grid">
       {% for member in subgroup.items %}
       <article class="profile-card">
@@ -53,13 +72,15 @@ styles:
           <img src="{{ member.image | relative_url }}" alt="{{ member.name }} headshot">
         </div>
         <div class="profile-body">
-          <div class="badge-list" aria-label="Roles">
+          <div class="badge-list" aria-label="Roles" data-i18n-key="team.structure.roles_aria" data-i18n-attr="aria-label" data-i18n-attr-only="true">
             {% for role in member.role %}
-            <span class="badge-label">{{ role }}</span>
+            {% assign role_fr = member.role_fr[forloop.index0] | default: role %}
+            <span class="badge-label" data-i18n data-i18n-en="{{ role | escape }}" data-i18n-fr="{{ role_fr | escape }}">{{ role }}</span>
             {% endfor %}
           </div>
           <h3>{{ member.name }}</h3>
-          <p>{{ member.focus }}</p>
+          {% assign focus_fr = member.focus_fr | default: member.focus %}
+          <p data-i18n data-i18n-en="{{ member.focus | escape }}" data-i18n-fr="{{ focus_fr | escape }}">{{ member.focus }}</p>
           {% if member.contact and member.contact != "" %}
           <p class="profile-contact">
             <a href="mailto:{{ member.contact }}">{{ member.contact }}</a>

@@ -6,28 +6,36 @@ permalink: /contact/
 
 {% assign contact = site.data.contact %}
 <section class="page-hero">
-  <div class="tag">Contact</div>
-  <h1>Let’s connect</h1>
-  <p class="lead">Want to partner, mentor, or learn more about the project? Reach out and we’ll connect you with the right team lead.</p>
+  <div class="tag" data-i18n-key="contact.hero.tag">Contact</div>
+  <h1 data-i18n-key="contact.hero.title">Let's connect</h1>
+  <p class="lead" data-i18n-key="contact.hero.lead">Want to partner, mentor, or learn more about the project? Reach out and we'll connect you with the right team lead.</p>
 </section>
 
 <section class="section section-tight" id="contact-details" aria-labelledby="contact-details-title">
   <div class="section-heading">
-    <p class="section-kicker">Details</p>
-    <h2 id="contact-details-title">Get in touch with EMUS</h2>
-    <p>Email: <a href="mailto:{{ contact.email }}">{{ contact.email }}</a></p>
-    <p>Social: <a href="{{ contact.facebook }}" target="_blank" rel="noreferrer">Facebook</a> / <a href="{{ contact.instagram }}" target="_blank" rel="noreferrer">Instagram</a></p>
+    <p class="section-kicker" data-i18n-key="contact.details.kicker">Details</p>
+    <h2 id="contact-details-title" data-i18n-key="contact.details.title">Get in touch with EMUS</h2>
+    <p>
+      <span data-i18n-key="contact.details.email_prefix">Email:</span>
+      <a href="mailto:{{ contact.email }}">{{ contact.email }}</a>
+    </p>
+    <p>
+      <span data-i18n-key="contact.details.social_prefix">Social:</span>
+      <a href="{{ contact.facebook }}" target="_blank" rel="noreferrer" data-i18n-key="contact.details.facebook">Facebook</a>
+      /
+      <a href="{{ contact.instagram }}" target="_blank" rel="noreferrer" data-i18n-key="contact.details.instagram">Instagram</a>
+    </p>
   </div>
   <div class="split-2">
     <div class="info-card">
-      <h3>Email</h3>
+      <h3 data-i18n-key="contact.details.email_title">Email</h3>
       <p><a href="mailto:{{ contact.email }}">{{ contact.email }}</a></p>
     </div>
     <div class="info-card">
-      <h3>Social</h3>
+      <h3 data-i18n-key="contact.details.social_title">Social</h3>
       <ul class="list-simple">
-        <li><a href="{{ contact.facebook }}" target="_blank" rel="noreferrer">Facebook</a></li>
-        <li><a href="{{ contact.instagram }}" target="_blank" rel="noreferrer">Instagram</a></li>
+        <li><a href="{{ contact.facebook }}" target="_blank" rel="noreferrer" data-i18n-key="contact.details.facebook">Facebook</a></li>
+        <li><a href="{{ contact.instagram }}" target="_blank" rel="noreferrer" data-i18n-key="contact.details.instagram">Instagram</a></li>
       </ul>
     </div>
   </div>
@@ -35,9 +43,9 @@ permalink: /contact/
 
 <section class="section section-tight" id="location" aria-labelledby="location-title">
   <div class="section-heading">
-    <p class="section-kicker">Location</p>
-    <h2 id="location-title">Université de Sherbrooke</h2>
-    <p>Based in Sherbrooke, QC · Faculty of Engineering.</p>
+    <p class="section-kicker" data-i18n-key="contact.location.kicker">Location</p>
+    <h2 id="location-title" data-i18n-key="contact.location.title">Universite de Sherbrooke</h2>
+    <p data-i18n-key="contact.location.body">Based in Sherbrooke, QC - Faculty of Engineering.</p>
   </div>
-  <div class="placeholder-media" aria-hidden="true">Placeholder map</div>
+  <div class="placeholder-media" aria-hidden="true" data-i18n-key="contact.location.map_placeholder">Placeholder map</div>
 </section>
