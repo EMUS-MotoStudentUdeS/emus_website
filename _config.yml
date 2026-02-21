@@ -16,3 +16,4 @@ exclude:
   - AGENTS.md
   - STYLE.md
   - SPEC.md
+timezone: America/Toronto
