@@ -48,3 +48,36 @@ Oui, il est valide dans les restaurants participants du **Groupe Abbatiello**.
 
 ### Pourquoi utiliser ce code?
 Une partie des ventes aide à soutenir l’équipe ÉMUS.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Quel est le code rabais Salvatoré?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Le code rabais EMUS15 donne 5% de rabais chez Pizza Salvatoré."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Le code EMUS15 fonctionne-t-il chez Jack le Coq et Topla?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui, le code EMUS15 est valide dans les restaurants participants du Groupe Abbatiello incluant Jack le Coq et Topla."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Que fait le code EMUS15?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Le code promo EMUS15 offre 5% de rabais sur les commandes en ligne participantes."
+      }
+    }
+  ]
+}
+</script>
