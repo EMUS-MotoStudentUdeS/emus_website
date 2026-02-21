@@ -4,7 +4,8 @@ url: "https://emus.ca"
 description: "EMUS is the University of Sherbrooke's student team building a 100% electric race motorcycle for MotoStudent in Spain."
 markdown: kramdown
 theme: null
-plugins: []
+plugins:
+  - jekyll-sitemap
 permalink: pretty
 exclude:
   - node_modules
