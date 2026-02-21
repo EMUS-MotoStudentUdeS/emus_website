@@ -3,9 +3,10 @@ layout: default
 title: "Code rabais Salvatoré, Jack le Coq & Topla – EMUS15 (5% de rabais)"
 description: "Utilisez le code rabais EMUS15 pour obtenir 5% de rabais chez Pizza Salvatoré, Jack le Coq et Topla – partenaires du Groupe Abbatiello."
 permalink: /code-rabais-abatiello/
+last_modified_at: 2026-02-21
 ---
 
-# Code rabais officiel ÉMUS – Groupe Abbatiello
+# Code rabais officiel ÉMUS 2026 – Groupe Abbatiello
 
 Utilisez le **code rabais EMUS15** pour obtenir **5% de rabais** dans les restaurants du **Groupe Abbatiello** :
 
