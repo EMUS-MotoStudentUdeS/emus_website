@@ -1,6 +1,7 @@
 ---
 layout: null
-permalink: false
+permalink: /content-data/
+sitemap: false
 ---
  
  # Home (hero)
