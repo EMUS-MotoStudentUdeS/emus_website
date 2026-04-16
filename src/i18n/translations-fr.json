@@ -1,0 +1,295 @@
+{
+  "site": {
+    "language": {
+      "switch_to_en": "Passer== en anglais",
+      "switch_to_fr": "Passer en francais"
+    },
+    "nav": {
+      "toggle": "Afficher la navigation",
+      "aria": "Navigation principale",
+      "home": "Accueil",
+      "team": "Equipe",
+      "project": "Projet",
+      "sponsors": "Partenaires",
+      "gallery": "Galerie",
+      "contact": "Contact"
+    },
+    "footer": {
+      "team": "Equipe",
+      "project": "Projet",
+      "sponsors": "Partenaires",
+      "gallery": "Galerie",
+      "contact": "Contact",
+      "description": "EMUS - Moto electrique de l'Universite de Sherbrooke",
+      "note": "En route vers MotoStudent 2027 - MotorLand Aragon, Espagne"
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "MotoStudent Electrique",
+      "title": "De Sherbrooke a MotorLand Aragon",
+      "lead": "EMUS (Moto Electrique de l'Universite de Sherbrooke) est une equipe etudiante en genie qui developpe une moto de course 100 % electrique pour la competition MotoStudent en Espagne.",
+      "primary_cta": "Qu'est-ce que MotoStudent ?",
+      "secondary_cta": "Nous contacter",
+      "next_race_label": "Prochaine course",
+      "next_race_value": "MotorLand Aragon - Oct 2027",
+      "image_alt": "Image hero decorative"
+    },
+    "facts": {
+      "kicker": "Faits rapides",
+      "title": "Pret pour la course en 2027",
+      "image_alt": "Rendu decoratif du projet",
+      "card_1_label": "Evenement final",
+      "card_1_value": "Oct 2027",
+      "card_1_note": "MotorLand Aragon, Alcaniz (Espagne)",
+      "card_2_label": "Performance 2023",
+      "card_2_value": "13e au monde",
+      "card_2_note": "1re equipe des Ameriques",
+      "card_3_label": "Objectif",
+      "card_3_value": "Prototype 100 % electrique",
+      "card_3_note": "Construit par des etudiants en genie"
+    },
+    "about": {
+      "kicker": "A propos de MotoStudent",
+      "title": "Concevoir. Construire. Courir.",
+      "paragraph_1": "MotoStudent est une competition internationale d'ingenierie ou des equipes universitaires concoivent et construisent un prototype de moto de course, evalue a MotorLand Aragon (Alcaniz, Espagne). Les categories incluent Essence et Electrique.",
+      "paragraph_2": "EMUS participe a la categorie Electrique et rassemble des etudiants de l'Universite de Sherbrooke pour concevoir une moto de course entierement electrique pour MotoStudent 2027.",
+      "timeline_header": "Calendrier de la competition",
+      "timeline_1_title": "Conception et validation",
+      "timeline_1_note": "En cours - Architecture systeme, validation, alignement fournisseurs",
+      "timeline_2_title": "Construction",
+      "timeline_2_note": "2026-2027 - Fabrication et essais du prototype",
+      "timeline_3_title": "Evenement final",
+      "timeline_3_note": "Oct 2027 - MotorLand Aragon"
+    },
+    "sponsors": {
+      "kicker": "Partenaires",
+      "title": "Soutenir la construction",
+      "paragraph": "Soutenez EMUS : financement, fabrication, materiaux et mentorat technique. Les partenaires strategiques accelerent les essais, la fabrication et la preparation course.",
+      "primary_cta": "Devenir partenaire",
+      "secondary_cta": "Envoyez-nous un courriel",
+      "card_label": "Ce que nous pouvons offrir",
+      "item_1": "Visibilite en piste a MotorLand Aragon",
+      "item_2": "Collaboration technique avec les etudiants",
+      "item_3": "Conferences techniques et demos campus"
+    },
+    "contact": {
+      "kicker": "Contact",
+      "title": "Parlons-en",
+      "paragraph": "Vous voulez devenir partenaire, offrir du mentorat ou en apprendre plus sur le projet ? Ecrivez-nous et nous vous mettrons en lien avec le bon responsable.",
+      "email": "Courriel",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "based_in_label": "Base a",
+      "based_in_value": "Sherbrooke, QC",
+      "based_in_note": "Universite de Sherbrooke - Faculte de genie"
+    }
+  },
+  "team": {
+    "hero": {
+      "tag": "Equipe",
+      "title": "Des etudiants en genie qui construisent la performance electrique",
+      "lead": "EMUS est une equipe etudiante en genie de l'Universite de Sherbrooke qui construit une moto de course entierement electrique pour MotoStudent 2027.",
+      "image_alt": "Equipe EMUS avec le prototype electrique sur piste"
+    },
+    "overview": {
+      "kicker": "Qui nous sommes",
+      "title": "Des etudiants qui construisent un prototype electrique competitif",
+      "paragraph_1": "Des etudiants multidisciplinaires en mecanique, electrique, controle, logiciel et affaires collaborent pour concevoir, construire et tester une moto de course entierement electrique pour MotoStudent 2027.",
+      "paragraph_2": "Nous combinons theorie academique et ingenierie de piste : conception du chassis et de la batterie, essais et operations course."
+    },
+    "photo": {
+      "title": "Photo de l'equipe",
+      "image_alt": "Equipe EMUS avec le prototype electrique sur piste"
+    },
+    "structure": {
+      "kicker": "Structure de l'equipe",
+      "title": "Responsables et unites",
+      "roles_aria": "Roles"
+    }
+  },
+  "project": {
+    "hero": {
+      "tag": "Projet",
+      "title": "Construire un prototype de course 100 % electrique",
+      "lead": "Le projet livre un prototype 100 % electrique capable de participer a MotorLand Aragon en octobre 2027.",
+      "stat_1_value": "Categorie electrique",
+      "stat_1_label": "MotoStudent",
+      "stat_2_value": "MotorLand Aragon",
+      "stat_2_label": "Alcaniz, Espagne",
+      "image_alt": "Image hero decorative"
+    },
+    "objectives": {
+      "kicker": "Objectifs",
+      "title": "Pret pour octobre 2027",
+      "paragraph_1": "Nous developpons une moto electrique competitive qui respecte les exigences techniques de MotoStudent et performe de facon fiable a MotorLand Aragon.",
+      "paragraph_2": "Points du calendrier : validation de conception en cours, construction et essais jusqu'en 2027, evenement final en octobre 2027.",
+      "image_alt": "Rendu decoratif du projet"
+    },
+    "focus": {
+      "kicker": "Axes techniques",
+      "title": "Systemes en developpement",
+      "image_alt": "Prototype electrique MotoStudent d'EMUS",
+      "card_1_badge": "Groupe motopropulseur",
+      "card_1_title": "Moteur et onduleur",
+      "card_1_body": "Notre objectif cette annee est d'ameliorer la conception du moteur et de l'onduleur pour aller chercher les derniers gains de performance. Cela inclut l'optimisation des algorithmes de commande de l'onduleur pour approcher les limites thermiques.",
+      "card_2_badge": "Energie",
+      "card_2_title": "Bloc batterie",
+      "card_2_body": "L'an dernier, nous avons concu un bloc batterie avec une technologie de cellules haute performance. Pour 2027, nous visons des cellules de nouvelle generation et un meilleur reglage de notre BMS a equilibrage actif.",
+      "card_3_badge": "Chassis",
+      "card_3_title": "Cadre et dynamique",
+      "card_3_body": "Pour 2027, nous redesignons l'architecture du chassis pour optimiser la rigidite et reduire le poids. En parallele, nous developpons des composants structuraux en fibre de carbone pour maximiser la fiabilite en condition de course.",
+      "card_4_badge": "Controle",
+      "card_4_title": "Commande vehicule",
+      "card_4_body": "Pour 2027, nous concevons notre propre ECU pour controler tous les systemes du vehicule et permettre un reglage precis de la performance.",
+      "card_5_badge": "Validation",
+      "card_5_title": "Essais et telemetrie",
+      "card_5_body": "La moto 2025 a introduit de nouveaux capteurs et systemes de telemetrie pour un developpement pilote par les donnees. Pour 2027, nous prevoyons ajouter des capteurs et integrer leurs donnees plus profondement dans la commande vehicule.",
+      "card_6_badge": "Refroidissement",
+      "card_6_title": "Conception du systeme de refroidissement",
+      "card_6_body": "Le systeme de refroidissement recoit une mise a niveau majeure, incluant l'exploration de nouvelles approches pour ameliorer les performances thermiques.",
+      "card_7_badge": "Aerodynamique",
+      "card_7_title": "Conception et optimisation des carenages",
+      "card_7_body": "Les carenages 2027 sont entierement redesignes puis optimises avec CFD et essais en soufflerie."
+    },
+    "timeline": {
+      "kicker": "Feuille de route",
+      "title": "Jalons cles",
+      "item_1_title": "Conception et validation",
+      "item_1_note": "En cours. Architecture systeme, analyses, alignement fournisseurs",
+      "item_2_title": "Construction et integration",
+      "item_2_note": "2026-2027 : Fabrication, assemblage, essais des sous-systemes",
+      "item_3_title": "Essais piste",
+      "item_3_note": "2027 : Reglage performance et fiabilite",
+      "item_4_title": "Evenement final",
+      "item_4_note": "Oct 2027 : MotorLand Aragon",
+      "image_alt": "Carte de piste decorative"
+    }
+  },
+  "sponsors": {
+    "hero": {
+      "tag": "Partenaires",
+      "title": "Soutenez le projet electrique EMUS",
+      "lead": "Soutenez EMUS : financement, fabrication, materiaux et mentorat technique.",
+      "stat_1_value": "Visibilite piste",
+      "stat_1_label": "MotorLand Aragon - Oct 2027",
+      "stat_2_value": "Impact ingenierie",
+      "stat_2_label": "Categorie electrique - MotoStudent"
+    },
+    "offer": {
+      "title": "Offre partenaire officielle \u2014 Groupe Abbatiello",
+      "body": "Soutenez EMUS tout en vous regalant! Utilisez le code promo EMUS15 pour obtenir 5% de rabais chez Pizza Salvatore, Jack le Coq et Topla.",
+      "cta": "Voir les details de l'offre"
+    },
+    "ways": {
+      "kicker": "Partenariats",
+      "title": "Facons de contribuer",
+      "card_1_badge": "Financement",
+      "card_1_title": "Budget projet",
+      "card_1_body": "Accelerez la fabrication, les essais et la logistique de course.",
+      "card_2_badge": "Fabrication",
+      "card_2_title": "Soutien de fabrication",
+      "card_2_body": "Temps machine, composites, soudage et procedes specialises.",
+      "card_3_badge": "Materiaux",
+      "card_3_title": "Composants et fournitures",
+      "card_3_body": "Metaux, composites, fixations, cablage et equipements d'essai.",
+      "card_4_badge": "Technique",
+      "card_4_title": "Mentorat",
+      "card_4_body": "Accompagnement en conception, validation, fiabilite et preparation course.",
+      "card_5_badge": "Services",
+      "card_5_title": "Analyses et outils",
+      "card_5_body": "Licences de simulation, acces piste et instrumentation d'essai.",
+      "card_6_badge": "Nature",
+      "card_6_title": "Equipement et espace",
+      "card_6_body": "Acces labo, etablis ou entreposage pour faire avancer la construction."
+    },
+    "visibility": {
+      "kicker": "Visibilite",
+      "title": "Opportunites de mise en valeur",
+      "body": "Les logos et activations seront places sur la moto, les vetements de l'equipe, l'installation de puits et les communications. Des elements temporaires sont affiches jusqu'a confirmation des logos partenaires.",
+      "image_alt": "Image decorative MotoStudent"
+    },
+    "cta": {
+      "kicker": "Nous joindre",
+      "title": "Pret a devenir partenaire ?",
+      "body": "Nous pouvons adapter une proposition autour de la visibilite, du recrutement et de la collaboration technique.",
+      "next_steps_title": "Prochaines etapes",
+      "next_steps_1": "Partagez votre focus : financement, materiaux ou mentorat",
+      "next_steps_2": "Nous revenons avec les besoins et echeanciers",
+      "next_steps_3": "Alignement sur la visibilite et la livraison",
+      "contact_title": "Contact",
+      "contact_body": "Courriel et reseaux sociaux dans la page Contact.",
+      "primary_cta": "Contacter EMUS",
+      "secondary_cta": "Voir le projet"
+    }
+  },
+  "gallery": {
+    "hero": {
+      "tag": "Galerie",
+      "title": "La preparation en images",
+      "lead": "Images temporaires pour le moment. TODO remplacer par des photos equipe, moto et piste optimisees (compressees et responsives)."
+    },
+    "coming_soon": {
+      "kicker": "Bientot",
+      "title": "Moments de la conception a la piste"
+    }
+  },
+  "contact": {
+    "hero": {
+      "tag": "Contact",
+      "title": "Restons en contact",
+      "lead": "Vous voulez devenir partenaire, offrir du mentorat ou en apprendre plus sur le projet ? Ecrivez-nous et nous vous mettrons en lien avec le bon responsable."
+    },
+    "details": {
+      "kicker": "Details",
+      "title": "Joindre EMUS",
+      "email_prefix": "Courriel :",
+      "social_prefix": "Reseaux :",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "email_title": "Courriel",
+      "social_title": "Reseaux"
+    },
+    "location": {
+      "kicker": "Localisation",
+      "title": "Universite de Sherbrooke",
+      "body": "Base a Sherbrooke, QC - Faculte de genie.",
+      "map_placeholder": "Carte a venir"
+    }
+  },
+  "abatiello": {
+    "hero": {
+      "tag": "Offre partenaire",
+      "title": "Code rabais officiel EMUS 2026 - Groupe Abbatiello",
+      "prefix": "Utilisez le code rabais",
+      "middle": "pour obtenir",
+      "suffix": "de rabais dans les restaurants du Groupe Abbatiello : Pizza Salvatore, Jack le Coq et Topla."
+    },
+    "cards": {
+      "salvatore": {
+        "title": "Pizza Salvatore \u2014 Code rabais EMUS15",
+        "body": "Entrez le code EMUS15 lors de votre commande en ligne pour obtenir 5% de rabais."
+      },
+      "jack": {
+        "title": "Jack le Coq \u2014 Code rabais EMUS15",
+        "body": "Le code promo EMUS15 est egalement valide chez Jack le Coq."
+      },
+      "topla": {
+        "title": "Topla! \u2014 Code rabais EMUS15",
+        "body": "Profitez de 5% de rabais chez Topla! avec le code EMUS15."
+      }
+    },
+    "howto": {
+      "title": "Comment utiliser le code",
+      "step_1": "Ajoutez vos items au panier",
+      "step_2": "Entrez le code EMUS15",
+      "step_3": "Le rabais s'applique automatiquement"
+    },
+    "conditions": {
+      "title": "Conditions",
+      "item_1": "Rabais : 5%",
+      "item_2": "Valide en ligne (site/app)",
+      "item_3": "Sous reserve des conditions du partenaire"
+    }
+  }
+}
