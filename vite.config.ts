@@ -7,5 +7,7 @@ export default defineConfig({
   plugins: [TanStackRouterVite({ target: "react" }), react(), tailwindcss()],
   server: {
     port: 3000
-  }
+  },
+
+  base: "/"
 });
