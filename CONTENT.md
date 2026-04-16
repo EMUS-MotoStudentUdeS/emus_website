@@ -1,10 +1,4 @@
----
-layout: null
-permalink: /content-data/
-sitemap: false
----
- 
- # Home (hero)
+﻿# Home (hero)
 EMUS (Electric Motorcycle of Université de Sherbrooke) is a student engineering team developing a 100% electric race motorcycle for the MotoStudent competition in Spain.
 
 # Quick facts
