@@ -1,5 +1,0 @@
-export const contact = {
-  email: "EMUS@usherbrooke.ca",
-  facebook: "https://www.facebook.com/Projetemus",
-  instagram: "https://www.instagram.com/emus_udes/"
-};
