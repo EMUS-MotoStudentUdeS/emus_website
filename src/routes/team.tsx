@@ -57,7 +57,10 @@ function TeamPage() {
             </h3>
             <div className="card-grid wide profile-grid">
               {members.map((member) => (
-                <article className="profile-card" key={member.name}>
+                <article
+                  className="card card--surface card--compact card--profile"
+                  key={member.name}
+                >
                   <div className="profile-media">
                     <img src={member.image} alt={`${member.name} headshot`} />
                   </div>

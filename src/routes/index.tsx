@@ -38,7 +38,7 @@ function HomePage() {
             <div className="hero__glow" />
             <div className="hero__image">
               <img
-                src="/assets/hero/MotoAragon.jpg"
+                src="/assets/hero/MotoAragon.webp"
                 alt={t("home.hero.image_alt")}
               />
             </div>
@@ -60,7 +60,7 @@ function HomePage() {
               <h2 id="facts-title">{t("home.facts.title")}</h2>
             </div>
             <div className="fact-grid">
-              <article className="fact-card">
+              <article className="card card--surface card--padded card--fact">
                 <p className="fact-card-label">
                   {t("home.facts.card_1_label")}
                 </p>
@@ -69,7 +69,7 @@ function HomePage() {
                 </p>
                 <p className="fact-card-note">{t("home.facts.card_1_note")}</p>
               </article>
-              <article className="fact-card">
+              <article className="card card--surface card--padded card--fact">
                 <p className="fact-card-label">
                   {t("home.facts.card_2_label")}
                 </p>
@@ -78,7 +78,7 @@ function HomePage() {
                 </p>
                 <p className="fact-card-note">{t("home.facts.card_2_note")}</p>
               </article>
-              <article className="fact-card">
+              <article className="card card--surface card--padded card--fact">
                 <p className="fact-card-label">
                   {t("home.facts.card_3_label")}
                 </p>
@@ -106,7 +106,10 @@ function HomePage() {
             <p>{t("home.about.paragraph_1")}</p>
             <p>{t("home.about.paragraph_2")}</p>
           </div>
-          <div className="split-card" aria-hidden="true">
+          <div
+            className="card card--alt card--padded card--split"
+            aria-hidden="true"
+          >
             <div className="split-card-header">
               {t("home.about.timeline_header")}
             </div>
@@ -170,7 +173,10 @@ function HomePage() {
               </a>
             </div>
           </div>
-          <div className="highlight-card" aria-hidden="true">
+          <div
+            className="card card--surface card--padded card--highlight"
+            aria-hidden="true"
+          >
             <p className="card-label">{t("home.sponsors.card_label")}</p>
             <ul className="list-simple">
               <li>{t("home.sponsors.item_1")}</li>
@@ -218,7 +224,10 @@ function HomePage() {
               </li>
             </ul>
           </div>
-          <div className="contact-card" aria-hidden="true">
+          <div
+            className="card card--surface card--padded card--contact"
+            aria-hidden="true"
+          >
             <p className="card-label">{t("home.contact.based_in_label")}</p>
             <p className="card-value">{t("home.contact.based_in_value")}</p>
             <p className="card-note">{t("home.contact.based_in_note")}</p>

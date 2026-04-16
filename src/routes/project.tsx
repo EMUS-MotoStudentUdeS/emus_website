@@ -17,11 +17,11 @@ function ProjectPage() {
             <h1>{t("project.hero.title")}</h1>
             <p className="lead">{t("project.hero.lead")}</p>
             <div className="card-grid">
-              <div className="stat-block">
+              <div className="card card--alt card--padded card--stat">
                 <p className="stat-value">{t("project.hero.stat_1_value")}</p>
                 <p className="stat-label">{t("project.hero.stat_1_label")}</p>
               </div>
-              <div className="stat-block">
+              <div className="card card--alt card--padded card--stat">
                 <p className="stat-value">{t("project.hero.stat_2_value")}</p>
                 <p className="stat-label">{t("project.hero.stat_2_label")}</p>
               </div>
@@ -79,49 +79,49 @@ function ProjectPage() {
             />
           </div>
           <div className="card-grid card-grid--single">
-            <article className="info-card">
+            <article className="card card--surface card--padded card--info">
               <div className="badge-label">
                 {t("project.focus.card_1_badge")}
               </div>
               <h3>{t("project.focus.card_1_title")}</h3>
               <p>{t("project.focus.card_1_body")}</p>
             </article>
-            <article className="info-card">
+            <article className="card card--surface card--padded card--info">
               <div className="badge-label">
                 {t("project.focus.card_2_badge")}
               </div>
               <h3>{t("project.focus.card_2_title")}</h3>
               <p>{t("project.focus.card_2_body")}</p>
             </article>
-            <article className="info-card">
+            <article className="card card--surface card--padded card--info">
               <div className="badge-label">
                 {t("project.focus.card_3_badge")}
               </div>
               <h3>{t("project.focus.card_3_title")}</h3>
               <p>{t("project.focus.card_3_body")}</p>
             </article>
-            <article className="info-card">
+            <article className="card card--surface card--padded card--info">
               <div className="badge-label">
                 {t("project.focus.card_4_badge")}
               </div>
               <h3>{t("project.focus.card_4_title")}</h3>
               <p>{t("project.focus.card_4_body")}</p>
             </article>
-            <article className="info-card">
+            <article className="card card--surface card--padded card--info">
               <div className="badge-label">
                 {t("project.focus.card_5_badge")}
               </div>
               <h3>{t("project.focus.card_5_title")}</h3>
               <p>{t("project.focus.card_5_body")}</p>
             </article>
-            <article className="info-card">
+            <article className="card card--surface card--padded card--info">
               <div className="badge-label">
                 {t("project.focus.card_6_badge")}
               </div>
               <h3>{t("project.focus.card_6_title")}</h3>
               <p>{t("project.focus.card_6_body")}</p>
             </article>
-            <article className="info-card">
+            <article className="card card--surface card--padded card--info">
               <div className="badge-label">
                 {t("project.focus.card_7_badge")}
               </div>
@@ -164,7 +164,7 @@ function ProjectPage() {
           </div>
           <div className="placeholder-media" aria-hidden="true">
             <img
-              src="/assets/hero/MotoAragon.jpg"
+              src="/assets/hero/MotoAragon.webp"
               alt={t("project.timeline.image_alt")}
             />
           </div>

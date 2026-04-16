@@ -234,5 +234,16 @@ export const teamMembers: TeamMember[] = [
     group_fr: "Operations course et rayonnement",
     image: "/assets/team/placeholder-avatar-emus.jpg",
     contact: ""
+  },
+  {
+    name: "Émilie Veilleux",
+    role: ["Marketing & Communications"],
+    role_fr: ["Marketing et communications"],
+    focus: "Communications, outreach, and sponsor relations.",
+    focus_fr: "Communications, rayonnement et relations partenaires.",
+    group: "Race Operations & Outreach",
+    group_fr: "Operations course et rayonnement",
+    image: "/assets/team/EmilieVeilleux.jpg",
+    contact: ""
   }
 ];

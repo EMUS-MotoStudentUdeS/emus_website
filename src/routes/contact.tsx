@@ -41,13 +41,13 @@ function ContactPage() {
           </p>
         </div>
         <div className="split-2">
-          <div className="info-card">
+          <div className="card card--surface card--padded card--info">
             <h3>{t("contact.details.email_title")}</h3>
             <p>
               <a href={`mailto:${contact.email}`}>{contact.email}</a>
             </p>
           </div>
-          <div className="info-card">
+          <div className="card card--surface card--padded card--info">
             <h3>{t("contact.details.social_title")}</h3>
             <ul className="list-simple">
               <li>

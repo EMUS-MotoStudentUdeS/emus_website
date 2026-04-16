@@ -15,23 +15,26 @@ function SponsorsPage() {
         <h1>{t("sponsors.hero.title")}</h1>
         <p className="lead">{t("sponsors.hero.lead")}</p>
         <div className="card-grid">
-          <div className="stat-block">
+          <div className="card card--alt card--padded card--stat">
             <p className="stat-value">{t("sponsors.hero.stat_1_value")}</p>
             <p className="stat-label">{t("sponsors.hero.stat_1_label")}</p>
           </div>
-          <div className="stat-block">
+          <div className="card card--alt card--padded card--stat">
             <p className="stat-value">{t("sponsors.hero.stat_2_value")}</p>
             <p className="stat-label">{t("sponsors.hero.stat_2_label")}</p>
           </div>
         </div>
       </section>
 
-      <section className="section section-highlight" style={{ textAlign: "center" }}>
-          <h3>{t("sponsors.offer.title")}</h3>
-          <p>{t("sponsors.offer.body")}</p>
-          <a className="button button-primary" href="/abatiello">
-            {t("sponsors.offer.cta")}
-          </a>
+      <section
+        className="section section-highlight"
+        style={{ textAlign: "center" }}
+      >
+        <h3>{t("sponsors.offer.title")}</h3>
+        <p>{t("sponsors.offer.body")}</p>
+        <a className="button button-primary" href="/abatiello">
+          {t("sponsors.offer.cta")}
+        </a>
       </section>
 
       <section
@@ -44,32 +47,32 @@ function SponsorsPage() {
           <h2 id="ways-title">{t("sponsors.ways.title")}</h2>
         </div>
         <div className="card-grid wide">
-          <article className="info-card">
+          <article className="card card--surface card--padded card--info">
             <div className="badge-label">{t("sponsors.ways.card_1_badge")}</div>
             <h3>{t("sponsors.ways.card_1_title")}</h3>
             <p>{t("sponsors.ways.card_1_body")}</p>
           </article>
-          <article className="info-card">
+          <article className="card card--surface card--padded card--info">
             <div className="badge-label">{t("sponsors.ways.card_2_badge")}</div>
             <h3>{t("sponsors.ways.card_2_title")}</h3>
             <p>{t("sponsors.ways.card_2_body")}</p>
           </article>
-          <article className="info-card">
+          <article className="card card--surface card--padded card--info">
             <div className="badge-label">{t("sponsors.ways.card_3_badge")}</div>
             <h3>{t("sponsors.ways.card_3_title")}</h3>
             <p>{t("sponsors.ways.card_3_body")}</p>
           </article>
-          <article className="info-card">
+          <article className="card card--surface card--padded card--info">
             <div className="badge-label">{t("sponsors.ways.card_4_badge")}</div>
             <h3>{t("sponsors.ways.card_4_title")}</h3>
             <p>{t("sponsors.ways.card_4_body")}</p>
           </article>
-          <article className="info-card">
+          <article className="card card--surface card--padded card--info">
             <div className="badge-label">{t("sponsors.ways.card_5_badge")}</div>
             <h3>{t("sponsors.ways.card_5_title")}</h3>
             <p>{t("sponsors.ways.card_5_body")}</p>
           </article>
-          <article className="info-card">
+          <article className="card card--surface card--padded card--info">
             <div className="badge-label">{t("sponsors.ways.card_6_badge")}</div>
             <h3>{t("sponsors.ways.card_6_title")}</h3>
             <p>{t("sponsors.ways.card_6_body")}</p>
@@ -89,7 +92,7 @@ function SponsorsPage() {
         </div>
         <div className="placeholder-media-wide" aria-hidden="true">
           <img
-            src="/assets/hero/MotoAragon.jpg"
+            src="/assets/hero/MotoAragon.webp"
             alt={t("sponsors.visibility.image_alt")}
           />
         </div>
@@ -106,7 +109,7 @@ function SponsorsPage() {
           <p>{t("sponsors.cta.body")}</p>
         </div>
         <div className="split-2">
-          <div className="info-card">
+          <div className="card card--surface card--padded card--info">
             <h3>{t("sponsors.cta.next_steps_title")}</h3>
             <ul className="list-simple">
               <li>{t("sponsors.cta.next_steps_1")}</li>
@@ -114,7 +117,7 @@ function SponsorsPage() {
               <li>{t("sponsors.cta.next_steps_3")}</li>
             </ul>
           </div>
-          <div className="info-card">
+          <div className="card card--surface card--padded card--info">
             <h3>{t("sponsors.cta.contact_title")}</h3>
             <p>{t("sponsors.cta.contact_body")}</p>
             <div className="highlight-actions">

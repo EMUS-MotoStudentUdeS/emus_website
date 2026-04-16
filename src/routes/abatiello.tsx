@@ -22,15 +22,15 @@ function AbatielloPage() {
 
       <section className="section section-tight">
         <div className="card-grid">
-          <article className="info-card">
+          <article className="card card--surface card--padded card--info">
             <h3>{t("abatiello.cards.salvatore.title")}</h3>
             <p>{t("abatiello.cards.salvatore.body")}</p>
           </article>
-          <article className="info-card">
+          <article className="card card--surface card--padded card--info">
             <h3>{t("abatiello.cards.jack.title")}</h3>
             <p>{t("abatiello.cards.jack.body")}</p>
           </article>
-          <article className="info-card">
+          <article className="card card--surface card--padded card--info">
             <h3>{t("abatiello.cards.topla.title")}</h3>
             <p>{t("abatiello.cards.topla.body")}</p>
           </article>
@@ -38,7 +38,7 @@ function AbatielloPage() {
       </section>
 
       <section className="section section-tight">
-        <div className="info-card">
+        <div className="card card--surface card--padded card--info">
           <h3>{t("abatiello.howto.title")}</h3>
           <ol className="list-simple">
             <li>{t("abatiello.howto.step_1")}</li>
