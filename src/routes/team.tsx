@@ -11,8 +11,8 @@ function TeamPage() {
 
   const grouped = Object.entries(
     teamMembers.reduce<Record<string, typeof teamMembers>>((acc, member) => {
-      acc[member.group] = acc[member.group] ?? [];
-      acc[member.group].push(member);
+      acc[member.groupKey] = acc[member.groupKey] ?? [];
+      acc[member.groupKey].push(member);
       return acc;
     }, {})
   );
@@ -50,11 +50,7 @@ function TeamPage() {
 
         {grouped.map(([groupName, members]) => (
           <div className="subteam-block" key={`${groupName}-${language}`}>
-            <h3 className="subteam-title">
-              {language === "fr"
-                ? (members[0]?.group_fr ?? groupName)
-                : groupName}
-            </h3>
+            <h3 className="subteam-title">{t(groupName)}</h3>
             <div className="card-grid wide profile-grid">
               {members.map((member) => (
                 <article
@@ -69,23 +65,17 @@ function TeamPage() {
                       className="badge-list"
                       aria-label={t("team.structure.roles_aria")}
                     >
-                      {(language === "fr" ? member.role_fr : member.role).map(
-                        (role) => (
-                          <span
-                            className="badge-label"
-                            key={`${member.name}-${role}`}
-                          >
-                            {role}
-                          </span>
-                        )
-                      )}
+                      {member.roleKeys.map((roleKey) => (
+                        <span
+                          className="badge-label"
+                          key={`${member.name}-${roleKey}`}
+                        >
+                          {t(roleKey)}
+                        </span>
+                      ))}
                     </div>
                     <h3>{member.name}</h3>
-                    <p>
-                      {language === "fr"
-                        ? member.focus_fr || member.focus
-                        : member.focus || member.focus_fr}
-                    </p>
+                    {member.focusKey ? <p>{t(member.focusKey)}</p> : null}
                     {member.contact ? (
                       <p className="profile-contact">
                         <a href={`mailto:${member.contact}`}>
