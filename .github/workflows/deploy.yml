@@ -19,8 +19,8 @@ jobs:
       - run: bun install --frozen-lockfile
       - run: bun run build
       - uses: actions/upload-pages-artifact@v4
-          with:
-            path: './dist'
+        with:
+          path: './dist'
       - name: Deploy to GitHub Pages
-          id: deployment
-          uses: actions/deploy-pages@v4
+        id: deployment
+        uses: actions/deploy-pages@v4
