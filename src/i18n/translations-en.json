@@ -313,6 +313,10 @@
       "tag": "Shop",
       "title": "EMUS Shop",
       "lead": "Support the team by grabbing some EMUS merch. All proceeds go toward building our electric race motorcycle for MotoStudent 2027."
+    },
+    "help": {
+      "text": "Having trouble with the shop? Try opening it directly in a new tab!",
+      "button": "Open shop in new tab"
     }
   },
   "abatiello": {

@@ -21,13 +21,23 @@ function ShopPage() {
           <iframe
             src="https://emus-shop.square.site"
             width="100%"
-            height="100%"
+            height="800"
             frameBorder="0"
             title="EMUS Shop"
-            loading="lazy"
-            scrolling="no"
           />
         </div>
+      </section>
+
+      <section className="section section-tight" style={{ textAlign: "center" }}>
+        <p>{t("shop.help.text")}</p>
+        <a
+          href="https://emus-shop.square.site"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="button button-primary"
+        >
+          {t("shop.help.button")}
+        </a>
       </section>
     </main>
   );
