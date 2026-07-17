@@ -11,6 +11,7 @@
       "team": "Équipe",
       "project": "Projet",
       "sponsors": "Partenaires",
+      "shop": "Boutique",
       "gallery": "Galerie",
       "contact": "Contact"
     },
@@ -18,6 +19,7 @@
       "team": "Équipe",
       "project": "Projet",
       "sponsors": "Partenaires",
+      "shop": "Boutique",
       "gallery": "Galerie",
       "contact": "Contact",
       "description": "EMUS - Moto électrique de l'Université de Sherbrooke",
@@ -143,6 +145,7 @@
       "renaud_gagnon": "Commandes pilote et intégration du système de propulsion.",
       "zachary_rodrigue": "Enregistrement des données d'essai et soutien aux systèmes aérodynamiques actifs.",
       "julien_lafleche": "Logiciel de contrôle, intégration batterie et validation.",
+      "julien_brisson": "Développement web, design et intégration électronique.",
       "william_roy": "Recherche exploratoire de concepts et stratégie marketing.",
       "loic_langlois": "Conception du cadre.",
       "emile_raymond": "Développement du groupe motopropulseur, systèmes dyno et soutien transmission.",
@@ -304,6 +307,17 @@
       "title": "Université de Sherbrooke",
       "body": "Basée à Sherbrooke, QC - Faculté de génie.",
       "map_placeholder": "Carte à venir"
+    }
+  },
+  "shop": {
+    "hero": {
+      "tag": "Boutique",
+      "title": "Boutique EMUS",
+      "lead": "Soutenez l'équipe en attrapant de la marchandise EMUS. Tous les profits servent à construire notre moto de course électrique pour MotoStudent 2027."
+    },
+    "help": {
+      "text": "Vous avez de la difficulté avec la boutique? Essayez de l'ouvrir directement dans un nouvel onglet!",
+      "button": "Ouvrir la boutique dans un nouvel onglet"
     }
   },
   "abatiello": {

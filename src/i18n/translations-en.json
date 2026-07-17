@@ -11,6 +11,7 @@
       "team": "Team",
       "project": "Project",
       "sponsors": "Sponsors",
+      "shop": "Shop",
       "gallery": "Gallery",
       "contact": "Contact"
     },
@@ -18,6 +19,7 @@
       "team": "Team",
       "project": "Project",
       "sponsors": "Sponsors",
+      "shop": "Shop",
       "gallery": "Gallery",
       "contact": "Contact",
       "description": "EMUS - Electric Motorcycle of Universite de Sherbrooke",
@@ -304,6 +306,17 @@
       "title": "Universite de Sherbrooke",
       "body": "Based in Sherbrooke, QC - Faculty of Engineering.",
       "map_placeholder": "Placeholder map"
+    }
+  },
+  "shop": {
+    "hero": {
+      "tag": "Shop",
+      "title": "EMUS Shop",
+      "lead": "Support the team by grabbing some EMUS merch. All proceeds go toward building our electric race motorcycle for MotoStudent 2027."
+    },
+    "help": {
+      "text": "Having trouble with the shop? Try opening it directly in a new tab!",
+      "button": "Open shop in new tab"
     }
   },
   "abatiello": {

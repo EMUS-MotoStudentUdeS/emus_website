@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as TeamRouteImport } from './routes/team'
 import { Route as SponsorsRouteImport } from './routes/sponsors'
+import { Route as ShopRouteImport } from './routes/shop'
 import { Route as ProjectRouteImport } from './routes/project'
 import { Route as GalleryRouteImport } from './routes/gallery'
 import { Route as ContactRouteImport } from './routes/contact'
@@ -25,6 +26,11 @@ const TeamRoute = TeamRouteImport.update({
 const SponsorsRoute = SponsorsRouteImport.update({
   id: '/sponsors',
   path: '/sponsors',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ShopRoute = ShopRouteImport.update({
+  id: '/shop',
+  path: '/shop',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ProjectRoute = ProjectRouteImport.update({
@@ -59,6 +65,7 @@ export interface FileRoutesByFullPath {
   '/contact': typeof ContactRoute
   '/gallery': typeof GalleryRoute
   '/project': typeof ProjectRoute
+  '/shop': typeof ShopRoute
   '/sponsors': typeof SponsorsRoute
   '/team': typeof TeamRoute
 }
@@ -68,6 +75,7 @@ export interface FileRoutesByTo {
   '/contact': typeof ContactRoute
   '/gallery': typeof GalleryRoute
   '/project': typeof ProjectRoute
+  '/shop': typeof ShopRoute
   '/sponsors': typeof SponsorsRoute
   '/team': typeof TeamRoute
 }
@@ -78,6 +86,7 @@ export interface FileRoutesById {
   '/contact': typeof ContactRoute
   '/gallery': typeof GalleryRoute
   '/project': typeof ProjectRoute
+  '/shop': typeof ShopRoute
   '/sponsors': typeof SponsorsRoute
   '/team': typeof TeamRoute
 }
@@ -89,6 +98,7 @@ export interface FileRouteTypes {
     | '/contact'
     | '/gallery'
     | '/project'
+    | '/shop'
     | '/sponsors'
     | '/team'
   fileRoutesByTo: FileRoutesByTo
@@ -98,6 +108,7 @@ export interface FileRouteTypes {
     | '/contact'
     | '/gallery'
     | '/project'
+    | '/shop'
     | '/sponsors'
     | '/team'
   id:
@@ -107,6 +118,7 @@ export interface FileRouteTypes {
     | '/contact'
     | '/gallery'
     | '/project'
+    | '/shop'
     | '/sponsors'
     | '/team'
   fileRoutesById: FileRoutesById
@@ -117,6 +129,7 @@ export interface RootRouteChildren {
   ContactRoute: typeof ContactRoute
   GalleryRoute: typeof GalleryRoute
   ProjectRoute: typeof ProjectRoute
+  ShopRoute: typeof ShopRoute
   SponsorsRoute: typeof SponsorsRoute
   TeamRoute: typeof TeamRoute
 }
@@ -135,6 +148,13 @@ declare module '@tanstack/react-router' {
       path: '/sponsors'
       fullPath: '/sponsors'
       preLoaderRoute: typeof SponsorsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/shop': {
+      id: '/shop'
+      path: '/shop'
+      fullPath: '/shop'
+      preLoaderRoute: typeof ShopRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/project': {
@@ -181,6 +201,7 @@ const rootRouteChildren: RootRouteChildren = {
   ContactRoute: ContactRoute,
   GalleryRoute: GalleryRoute,
   ProjectRoute: ProjectRoute,
+  ShopRoute: ShopRoute,
   SponsorsRoute: SponsorsRoute,
   TeamRoute: TeamRoute,
 }

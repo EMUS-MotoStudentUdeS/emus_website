@@ -46,7 +46,7 @@ export const teamMembers: TeamMember[] = [
     focusKey: "team.focus.zachary_rodrigue",
     groupKey: "team.groups.electrical_control",
     image: "/assets/team/ZacharyRodrigue.jpg",
-    contact: ""
+    contact: "Zachary.Rodrigue@USherbrooke.ca"
   },
   {
     name: "Julien Lafleche",
@@ -55,6 +55,14 @@ export const teamMembers: TeamMember[] = [
     groupKey: "team.groups.electrical_control",
     image: "/assets/team/JulienLafleche.jpg",
     contact: "julien.lafleche@usherbrooke.ca"
+  },
+  {
+    name: "Julien Brisson",
+    roleKeys: ["team.roles.ecu_control_systems"],
+    focusKey: "team.focus.julien_brisson",
+    groupKey: "team.groups.electrical_control",
+    image: "/assets/team/JulienBrisson.jpg",
+    contact: "julien.brisson@usherbrooke.ca"
   },
   {
     name: "William Roy",
@@ -90,7 +98,7 @@ export const teamMembers: TeamMember[] = [
     focusKey: "team.focus.felix_jacques",
     groupKey: "team.groups.electrical_control",
     image: "/assets/team/FelixJacques.jpg",
-    contact: ""
+    contact: "Felix.Jacques@USherbrooke.ca"
   },
   {
     name: "Jeremy Marcoux",
@@ -158,7 +166,7 @@ export const teamMembers: TeamMember[] = [
     name: "Alexandre Roy",
     roleKeys: ["team.roles.data_logging_integrator"],
     groupKey: "team.groups.electrical_control",
-    image: "/assets/team/placeholder-avatar-emus.jpg",
+    image: "/assets/team/AlexandreRoy.jpg",
     contact: "alexandre.roy14@usherbrooke.ca"
   },
   {
