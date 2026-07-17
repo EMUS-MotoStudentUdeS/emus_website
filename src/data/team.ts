@@ -158,7 +158,7 @@ export const teamMembers: TeamMember[] = [
     name: "Alexandre Roy",
     roleKeys: ["team.roles.data_logging_integrator"],
     groupKey: "team.groups.electrical_control",
-    image: "/assets/team/placeholder-avatar-emus.jpg",
+    image: "/assets/team/AlexandreRoy.jpg",
     contact: "alexandre.roy14@usherbrooke.ca"
   },
   {

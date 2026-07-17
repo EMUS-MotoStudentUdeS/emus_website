@@ -11,6 +11,7 @@
       "team": "Équipe",
       "project": "Projet",
       "sponsors": "Partenaires",
+      "shop": "Boutique",
       "gallery": "Galerie",
       "contact": "Contact"
     },
@@ -18,6 +19,7 @@
       "team": "Équipe",
       "project": "Projet",
       "sponsors": "Partenaires",
+      "shop": "Boutique",
       "gallery": "Galerie",
       "contact": "Contact",
       "description": "EMUS - Moto électrique de l'Université de Sherbrooke",
@@ -304,6 +306,13 @@
       "title": "Université de Sherbrooke",
       "body": "Basée à Sherbrooke, QC - Faculté de génie.",
       "map_placeholder": "Carte à venir"
+    }
+  },
+  "shop": {
+    "hero": {
+      "tag": "Boutique",
+      "title": "Boutique EMUS",
+      "lead": "Soutenez l'équipe en attrapant de la marchandise EMUS. Tous les profits servent à construire notre moto de course électrique pour MotoStudent 2027."
     }
   },
   "abatiello": {

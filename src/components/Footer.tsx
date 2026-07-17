@@ -15,6 +15,7 @@ export default function Footer() {
         <a href="/team">{t("site.footer.team")}</a>
         <a href="/project">{t("site.footer.project")}</a>
         <a href="/sponsors">{t("site.footer.sponsors")}</a>
+        <a href="/shop">{t("site.footer.shop")}</a>
         <a href="/gallery">{t("site.footer.gallery")}</a>
         <a href="/contact">{t("site.footer.contact")}</a>
       </div>

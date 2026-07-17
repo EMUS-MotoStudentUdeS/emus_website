@@ -11,6 +11,7 @@ export default function Header() {
     { to: "/team", label: t("site.nav.team") },
     { to: "/project", label: t("site.nav.project") },
     { to: "/sponsors", label: t("site.nav.sponsors") },
+    { to: "/shop", label: t("site.nav.shop") },
     { to: "/gallery", label: t("site.nav.gallery") },
     { to: "/contact", label: t("site.nav.contact") }
   ] as const;
