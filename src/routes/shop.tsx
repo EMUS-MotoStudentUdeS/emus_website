@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { useLanguage } from "../i18n/language";
 
@@ -7,6 +8,14 @@ export const Route = createFileRoute("/shop")({
 
 function ShopPage() {
   const { t } = useLanguage();
+  const [copied, setCopied] = useState(false);
+
+  function handleCopy() {
+    navigator.clipboard.writeText("EMUS15").then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2500);
+    });
+  }
 
   return (
     <main>
@@ -14,6 +23,17 @@ function ShopPage() {
         <div className="tag">{t("shop.hero.tag")}</div>
         <h1>{t("shop.hero.title")}</h1>
         <p className="lead">{t("shop.hero.lead")}</p>
+      </section>
+
+      <section
+        className="section section-highlight"
+        style={{ textAlign: "center" }}
+      >
+        <p style={{ margin: 0 }}>{t("shop.promo.text")}</p>
+        <p style={{ margin: "0.5rem 0" }}><strong></strong></p>
+        <button className="button button-primary" onClick={handleCopy}>
+          EMUS15
+        </button>
       </section>
 
       <section className="section section-tight">
@@ -39,6 +59,7 @@ function ShopPage() {
           {t("shop.help.button")}
         </a>
       </section>
+      {copied && <div className="toast">{t("shop.promo.copied")}</div>}
     </main>
   );
 }

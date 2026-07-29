@@ -261,6 +261,25 @@
       "body": "Les logos et activations seront placés sur la moto, les vêtements de l'équipe, l'installation de puits et les communications. Des éléments temporaires sont affichés jusqu'à confirmation des logos partenaires.",
       "image_alt": "Image décorative MotoStudent"
     },
+    "benefits": {
+      "title": "Avantages",
+      "tier_1": "Bronze \u2014 500$",
+      "tier_2": "Argent + 500$",
+      "tier_3": "Or + 2\u202f000$",
+      "tier_4": "Diamant + 5\u202f000$",
+      "tier_5": "Lithium + 10\u202f000$",
+      "row_1": "Mention honorable sur nos r\u00e9seaux sociaux",
+      "row_2": "Invitation \u00e0 l\u2019\u00e9v\u00e9nement d\u00e9voilement",
+      "row_3": "Logo sur les affiches et v\u00eatements",
+      "row_4": "Logo sur la moto",
+      "row_5": "Publications personnalis\u00e9es",
+      "row_6": "Acc\u00e8s aux coordonn\u00e9es de l\u2019\u00e9quipe",
+      "row_7": "Logo de l\u2019entreprise sous le logo EMUS",
+      "row_8": "Entente personnalis\u00e9e",
+      "size_small": "S",
+      "size_medium": "M",
+      "size_large": "L"
+    },
     "cta": {
       "kicker": "Nous joindre",
       "title": "Prêt à devenir partenaire ?",
@@ -314,6 +333,11 @@
       "tag": "Boutique",
       "title": "Boutique EMUS",
       "lead": "Soutenez l'équipe en attrapant de la marchandise EMUS. Tous les profits servent à construire notre moto de course électrique pour MotoStudent 2027."
+    },
+    "promo": {
+      "text": "Utilisez le code suivant à la caisse !",
+      "button": "Copier le code",
+      "copied": "Copié !"
     },
     "help": {
       "text": "Vous avez de la difficulté avec la boutique? Essayez de l'ouvrir directement dans un nouvel onglet!",

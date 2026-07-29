@@ -260,6 +260,25 @@
       "body": "Logos and activations will be placed on the bike, team apparel, pit setup, and communications. Placeholder assets are shown until sponsor logos are confirmed.",
       "image_alt": "Decorative MotoStudent image"
     },
+    "benefits": {
+      "title": "Advantages",
+      "tier_1": "Bronze — 500$",
+      "tier_2": "Silver + 500$",
+      "tier_3": "Gold + 2\u202f000$",
+      "tier_4": "Diamond + 5\u202f000$",
+      "tier_5": "Lithium + 10\u202f000$",
+      "row_1": "Honorable mention on our social media",
+      "row_2": "Invitation to the unveiling event",
+      "row_3": "Logo on posters and clothing",
+      "row_4": "Logo on the motorcycle",
+      "row_5": "Customized publications",
+      "row_6": "Access to the team\u2019s contact information",
+      "row_7": "Company logo under the EMUS logo",
+      "row_8": "Customized agreement",
+      "size_small": "S",
+      "size_medium": "M",
+      "size_large": "L"
+    },
     "cta": {
       "kicker": "Get in touch",
       "title": "Ready to partner?",
@@ -313,6 +332,11 @@
       "tag": "Shop",
       "title": "EMUS Shop",
       "lead": "Support the team by grabbing some EMUS merch. All proceeds go toward building our electric race motorcycle for MotoStudent 2027."
+    },
+    "promo": {
+      "text": "Use the following code at checkout!",
+      "button": "Copy code",
+      "copied": "Copied!"
     },
     "help": {
       "text": "Having trouble with the shop? Try opening it directly in a new tab!",

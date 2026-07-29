@@ -99,6 +99,65 @@ function SponsorsPage() {
       </section>
 
       <section
+        className="section section-tight section-highlight"
+        id="benefits"
+        aria-labelledby="benefits-title"
+      >
+        <div className="benefits-scroll">
+          <div className="benefits-table" role="table" aria-label={t("sponsors.benefits.title")}>
+            <div className="benefits-header" role="rowheader">
+              {t("sponsors.benefits.title")}
+            </div>
+            <div className="benefits-tier benefits-tier--logo">
+              <img src="/assets/logo/Logo_EMUS_V-BL.png" alt="EMUS" className="benefits-logo" />
+            </div>
+            {[
+              t("sponsors.benefits.tier_1"),
+              t("sponsors.benefits.tier_2"),
+              t("sponsors.benefits.tier_3"),
+              t("sponsors.benefits.tier_4"),
+              t("sponsors.benefits.tier_5")
+            ].map((tier, i) => (
+              <div className="benefits-tier" role="columnheader" key={i}>
+                {tier}
+              </div>
+            ))}
+            {[
+              { label: t("sponsors.benefits.row_1"), cells: ["yes", "yes", "yes", "yes", "yes"] },
+              { label: t("sponsors.benefits.row_2"), cells: ["yes", "yes", "yes", "yes", "yes"] },
+              { label: t("sponsors.benefits.row_3"), cells: ["", t("sponsors.benefits.size_small"), t("sponsors.benefits.size_medium"), t("sponsors.benefits.size_large"), t("sponsors.benefits.size_large")] },
+              { label: t("sponsors.benefits.row_4"), cells: ["", t("sponsors.benefits.size_small"), t("sponsors.benefits.size_medium"), t("sponsors.benefits.size_large"), t("sponsors.benefits.size_large")] },
+              { label: t("sponsors.benefits.row_5"), cells: ["", "", "yes", "yes", "yes"] },
+              { label: t("sponsors.benefits.row_6"), cells: ["", "", "yes", "yes", "yes"] },
+              { label: t("sponsors.benefits.row_7"), cells: ["", "", "", "", "yes"] },
+              { label: t("sponsors.benefits.row_8"), cells: ["", "", "", "", "yes"] }
+            ].map((row, ri) => (
+              <div className="benefits-row" role="row" key={ri}>
+                <div className="benefits-label" role="rowheader">
+                  {row.label}
+                </div>
+                {row.cells.map((cell, ci) => {
+                  let cls = "benefits-cell";
+                  let content = cell;
+                  if (cell === "yes") {
+                    cls += " benefits-cell--yes";
+                    content = "\u2713";
+                  } else if (cell && cell !== "") {
+                    cls += " benefits-cell--size";
+                  }
+                  return (
+                    <div className={cls} role="cell" key={ci}>
+                      {content}
+                    </div>
+                  );
+                })}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section
         className="section section-tight"
         id="cta"
         aria-labelledby="cta-title"
